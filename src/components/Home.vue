@@ -49,11 +49,11 @@ onMounted(() => {
       <!-- Couple Names -->
       <div class="flex items-center justify-center gap-4 md:gap-8 mt-[-50px]">
         <div class="text-right">
-          <p class="text-white text-3xl md:text-5xl font-khmer">ជន សុខមាន</p>
+          <p class="text-white text-3xl md:text-5xl font-khmer">អឿន វិជ្ជា</p>
         </div>
         <img src="/src/assets/love1.png" alt="" class="w-20 h-20 md:w-32 md:h-32"/>
         <div class="text-left">
-          <p class="text-white text-3xl md:text-5xl font-khmer">រ៉ាន់ សុខណា</p>
+          <p class="text-white text-3xl md:text-5xl font-khmer">យៀង ស្រីនិច្ច</p>
         </div>
       </div>
 
