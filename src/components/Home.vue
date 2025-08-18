@@ -4,7 +4,7 @@ import { ref, onMounted, defineEmits } from "vue";
 const emit = defineEmits(["openContent"]);
 
 // Countdown Timer Logic
-const targetDate = new Date("2026-01-28").getTime();
+const targetDate = new Date("2025-11-3").getTime();
 const days = ref(0);
 const hours = ref(0);
 const minutes = ref(0);
@@ -60,7 +60,7 @@ onMounted(() => {
       <!-- Wedding Date -->
       <div class="mt-8 text-red-400">
         <p class="text-xl md:text-2xl font-khmer-kh">ពិធីរៀបអាពាហ៍ពិពាហ៍</p>
-        <p class="text-2xl md:text-4xl font-khmer mt-2">ថ្ងៃពុធ ២៨ មករា ២០២៦</p>
+        <p class="text-2xl md:text-4xl font-khmer mt-2">ថ្ងៃចន្ទ ០៣ វិច្ឆិកា ២០២៥</p>
       </div>
 
       <!-- Countdown Timer -->
