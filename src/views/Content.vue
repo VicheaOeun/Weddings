@@ -17,42 +17,98 @@
     <div
       class="relative z-10 flex flex-col items-center justify-start text-white text-center px-6 pt-20 pb-20 overflow-y-scroll h-screen"
     >
-      <h2 class="text-4xl md:text-6xl mt-20 font-khmer text-yellow-200">
-        សិរីមង្គលអាពាហ៍ពិពាហ៍
-      </h2>
-      <div class="flex justify-between items-center mt-10 font-khmer">
-        <div>
-          <div class="text-yellow-500 text-2xl md:text-3xl font-khmer-kh">
-            កូនប្រុសនាម
+      <section class="mt-40">
+        <h2 class="text-4xl md:text-6xl mt-20 font-khmer text-yellow-600">
+          សិរីមង្គលអាពាហ៍ពិពាហ៍
+        </h2>
+        <div
+          class="flex justify-between text-start items-center mt-20 font-khmer text-yellow-700 text-xl md:text-3xl md:w-1/2 mx-auto"
+        >
+          <div>
+            <div>លោក ឆន អឿន</div>
+            <div>លោកស្រី គ្រី​ ទូច</div>
           </div>
-          <div class="text-2xl md:text-5xl mt-4 md:mt-10">អឿន</div>
-          <div class="text-2xl md:text-5xl mt-2 md:mt-10">វិជ្ជា</div>
-        </div>
-        <div class="w-66 h-66 font-bold mt-10">
-          <img src="/src/assets/love1.png" alt="" />
-        </div>
-        <div>
-          <div class="text-yellow-500 text-2xl md:text-3xl font-khmer-kh">
-            កូនស្រីនាម
+          <div>
+            <div>លោក ចាន់ ដារិទ្ធ</div>
+            <div>លោកស្រី រិត សុខឃឿន</div>
           </div>
-          <div class="text-2xl md:text-5xl mt-4 md:mt-10">យៀង</div>
-          <div class="text-2xl md:text-5xl mt-2 md:mt-10">ស្រីនិច្ច</div>
         </div>
-      </div>
-      <div class="text-yellow-500 text-2xl md:text-3xl font-khmer-kh mt-20">
-        ដែលនឹងប្រព្រឹត្តទៅនៅ
-      </div>
-      <div class="text-3xl md:text-5xl mt-4 md:mt-10 font-khmer">
-        ថ្ងៃចន្ទ ទី០៣ ខែវិច្ឆិកា ឆ្នាំ២០២៥
-      </div>
-      <div class="text-yellow-500 text-xl md:text-3xl font-khmer-kh mt-10">
+        <div class="text-yellow-600 text-2xl md:text-3xl font-khmer-kh mt-20">
+              សូមគោរពអញ្ជើញ
+        </div>
+        <div  
+          class="text-yellow-500 text-xl md:text-3xl font-khmer-kh mt-10 md:w-1/2 text-center mx-auto"
+        >
+          សម្ដេច ទ្រង់ ឯកឧត្តម អ្នកឧកញ៉ា ឧកញ៉ា លោកជំទាវ លោក លោកស្រី អ្នកនាងកញ្ញា
+          អញ្ជើញចូលរួមជាអធិបតី និងជាភ្ញៀវកិត្តិយស ដើម្បីប្រសិទ្ធពរជ័យ សិរីសួស្ដី
+          ជ័យមង្គល ក្នុងពិធីរៀបអាពាហ៍ពិពាហ៍ កូនប្រុស-កូនស្រី របស់យើងខ្ញុំ
+        </div>
+        <div
+          class="flex justify-between items-center mt-10 font-khmer md:w-1/2 mx-auto"
+        >
+          <div>
+            <div class="text-yellow-600 text-2xl md:text-3xl font-khmer-kh">
+              កូនប្រុសនាម
+            </div>
+            <div class="text-2xl md:text-5xl mt-4 md:mt-10">អឿន</div>
+            <div class="text-2xl md:text-5xl mt-2 md:mt-10">វិជ្ជា</div>
+          </div>
+          <div class="w-66 h-66 font-bold mt-10">
+            <img src="/src/assets/love1.png" alt="" />
+          </div>
+          <div>
+            <div class="text-yellow-600 text-2xl md:text-3xl font-khmer-kh">
+              កូនស្រីនាម
+            </div>
+            <div class="text-2xl md:text-5xl mt-4 md:mt-10">យៀង</div>
+            <div class="text-2xl md:text-5xl mt-2 md:mt-10">ស្រីនិច្ច</div>
+          </div>
+        </div>
+        <div class="text-yellow-600 text-2xl md:text-3xl font-khmer-kh mt-10">
+          ដែលនឹងប្រព្រឹត្តទៅ
+        </div>
+        <div class="text-3xl md:text-5xl mt-4 md:mt-10 font-khmer">
+          ថ្ងៃចន្ទ ទី០៣ ខែវិច្ឆិកា ឆ្នាំ២០២៥
+        </div>
+        <button
+          class="flex justify-center items-center mt-10 font-khmer-kh text-yellow-500 border-2 border-yellow-500 px-4 py-2 rounded-full mx-auto"
+        >
+          <a href="https://calendar.google.com/calendar/u/0/r/eventedit?text=កម្មវិធីអាពាហ៍ពិពាហ៍&dates=20251103T100000Z/20251103T120000Z&details=សូមមកចូលរួមកម្មវិធីរបស់យើង&location=Phnom%20Penh" target="_blank" rel="noopener noreferrer">
+            <div class="text-2xl md:text-4xl cursor-pointer text-yellow-500 hover:text-red-800">
+            កត់ទុកក្នុងប្រតិទិន
+            </div>
+          </a>
+
+
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            viewBox="0 0 21 21"
+          >
+            <g fill="none" fill-rule="evenodd">
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M4.5 2.5h12a2 2 0 0 1 2 2v11.99a2 2 0 0 1-2 2h-12a2 2 0 0 1-2-2V4.5a2 2 0 0 1 2-2m-1.841 4H18.5"
+                stroke-width="1"
+              />
+              <path
+                fill="currentColor"
+                d="M6.816 13.155v-1.079h.88c.668 0 1.122-.395 1.122-.972c0-.527-.415-.927-1.103-.927c-.713 0-1.152.366-1.201.996H5.15C5.201 9.874 6.201 9 7.788 9c1.563 0 2.432.864 2.427 1.895c-.005.854-.542 1.416-1.299 1.601v.093c.981.141 1.577.766 1.577 1.709c0 1.235-1.162 2.11-2.754 2.11S5.063 15.537 5 14.204h1.411c.044.596.552.977 1.309.977c.747 0 1.27-.406 1.27-1.016c0-.625-.489-1.01-1.28-1.01zm6.7 3.072v-5.611h-.087L11.7 11.808v-1.372l1.821-1.255h1.47v7.046z"
+              />
+            </g>
+          </svg>
+        </button>
+        <div class="text-yellow-600 text-xl md:text-3xl font-khmer-kh mt-10">
         ទីតាំង ភូមិសំណង សង្កាតរកាធំ ក្រុងច្បារមន ខេត្តកំពង់ស្ពឺ
-      </div>
-      <button
-        class="flex justify-center items-center mt-10 font-khmer-kh text-yellow-500 border-2 border-yellow-500 px-4 py-2 rounded-full"
+        </div>
+        <button
+        class="flex justify-center items-center mt-10 font-khmer-kh text-yellow-500 border-2 border-yellow-500 px-4 py-2 rounded-full mx-auto"
       >
         <a href="https://maps.google.com/?q=11.467338,104.523792" target="_blank" rel="noopener noreferrer">
-          <div class="text-2xl md:text-4xl cursor-pointer text-red-400 hover:text-red-800">
+          <div class="text-2xl md:text-4xl cursor-pointer text-yellow-500 hover:text-red-800">
           បើកផែនទី
           </div>
         </a>
@@ -86,91 +142,10 @@
           />
         </svg>
       </button>
-      <section class="mt-40">
-        <h2 class="text-4xl md:text-6xl mt-20 font-khmer text-yellow-200">
-          សិរីមង្គលអាពាហ៍ពិពាហ៍
-        </h2>
-        <div
-          class="flex justify-between text-start items-center mt-20 font-khmer text-yellow-200 text-xl md:text-3xl md:w-1/2 mx-auto"
-        >
-          <div>
-            <div>លោក ឆន អឿន</div>
-            <div>លោកស្រី គ្រី​ ទូច</div>
-          </div>
-          <div>
-            <div>លោក ចាន់ ដារិទ្ធ</div>
-            <div>លោកស្រី រិត សុខឃឿន</div>
-          </div>
-        </div>
-        <div  
-          class="text-yellow-400 text-xl md:text-3xl font-khmer-kh mt-20 md:w-1/2 text-center mx-auto"
-        >
-          សម្ដេច ទ្រង់ ឯកឧត្តម អ្នកឧកញ៉ា ឧកញ៉ា លោកជំទាវ លោក លោកស្រី អ្នកនាងកញ្ញា
-          អញ្ជើញចូលរួមជាអធិបតី និងជាភ្ញៀវកិត្តិយស ដើម្បីប្រសិទ្ធពរជ័យ សិរីសួស្ដី
-          ជ័យមង្គល ក្នុងពិធីរៀបអាពាហ៍ពិពាហ៍ កូនប្រុស-កូនស្រី របស់យើងខ្ញុំ
-        </div>
-        <div
-          class="flex justify-between items-center mt-10 font-khmer md:w-1/2 mx-auto"
-        >
-          <div>
-            <div class="text-yellow-500 text-2xl md:text-3xl font-khmer-kh">
-              កូនប្រុសនាម
-            </div>
-            <div class="text-2xl md:text-5xl mt-4 md:mt-10">អឿន</div>
-            <div class="text-2xl md:text-5xl mt-2 md:mt-10">វិជ្ជា</div>
-          </div>
-          <div class="w-66 h-66 font-bold mt-10">
-            <img src="/src/assets/love1.png" alt="" />
-          </div>
-          <div>
-            <div class="text-yellow-500 text-2xl md:text-3xl font-khmer-kh">
-              កូនស្រីនាម
-            </div>
-            <div class="text-2xl md:text-5xl mt-4 md:mt-10">យៀង</div>
-            <div class="text-2xl md:text-5xl mt-2 md:mt-10">ស្រីនិច្ច</div>
-          </div>
-        </div>
-        <div class="text-yellow-500 text-2xl md:text-3xl font-khmer-kh mt-10">
-          ដែលនឹងប្រព្រឹត្តទៅ
-        </div>
-        <div class="text-3xl md:text-5xl mt-4 md:mt-10 font-khmer">
-          ថ្ងៃចន្ទ ទី០៣ ខែវិច្ឆិកា ឆ្នាំ២០២៥
-        </div>
-        <button
-          class="flex justify-center items-center mt-10 font-khmer-kh text-yellow-500 border-2 border-yellow-500 px-4 py-2 rounded-full mx-auto"
-        >
-          <a href="https://calendar.google.com/calendar/u/0/r/eventedit?text=កម្មវិធីអាពាហ៍ពិពាហ៍&dates=20251103T100000Z/20251103T120000Z&details=សូមមកចូលរួមកម្មវិធីរបស់យើង&location=Phnom%20Penh" target="_blank" rel="noopener noreferrer">
-            <div class="text-2xl md:text-4xl cursor-pointer text-red-400 hover:text-red-800">
-            កត់ទុកក្នុងប្រតិទិន
-            </div>
-          </a>
-
-
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="30"
-            height="30"
-            viewBox="0 0 21 21"
-          >
-            <g fill="none" fill-rule="evenodd">
-              <path
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M4.5 2.5h12a2 2 0 0 1 2 2v11.99a2 2 0 0 1-2 2h-12a2 2 0 0 1-2-2V4.5a2 2 0 0 1 2-2m-1.841 4H18.5"
-                stroke-width="1"
-              />
-              <path
-                fill="currentColor"
-                d="M6.816 13.155v-1.079h.88c.668 0 1.122-.395 1.122-.972c0-.527-.415-.927-1.103-.927c-.713 0-1.152.366-1.201.996H5.15C5.201 9.874 6.201 9 7.788 9c1.563 0 2.432.864 2.427 1.895c-.005.854-.542 1.416-1.299 1.601v.093c.981.141 1.577.766 1.577 1.709c0 1.235-1.162 2.11-2.754 2.11S5.063 15.537 5 14.204h1.411c.044.596.552.977 1.309.977c.747 0 1.27-.406 1.27-1.016c0-.625-.489-1.01-1.28-1.01zm6.7 3.072v-5.611h-.087L11.7 11.808v-1.372l1.821-1.255h1.47v7.046z"
-              />
-            </g>
-          </svg>
-        </button>
       </section>
       <section class="mt-40">
         <h2
-          class="text-4xl md:text-6xl mt-20 font-khmer text-yellow-200 mb-5 md:mb-20"
+          class="text-4xl md:text-6xl mt-20 font-khmer text-yellow-600 mb-5 md:mb-20"
         >
           វិចិត្រសាល
         </h2>
@@ -209,14 +184,14 @@
       </section>
       <section class="mt-40">
         <h2
-          class="text-4xl md:text-6xl mt-20 font-khmer text-yellow-200 mb-5 md:mb-20"
+          class="text-4xl md:text-6xl mt-20 font-khmer text-yellow-600 mb-5 md:mb-20"
         >
           កម្មវិធីមង្គលអាពាហ៍ពិពាហ៍
         </h2>
         <div class="p-1">
           <!-- Category Selection -->
           <div
-          class="flex flex-col md:flex-row justify-center items-center text-center w-full max-w-[600px] bg-yellow-200 p-3 rounded-lg font-khmer text-md md:text-2xl text-gray-400 mx-auto gap-3 md:gap-10"
+          class="flex flex-col md:flex-row justify-center items-center text-center w-full max-w-[600px] bg-yellow-500 p-3 rounded-lg font-khmer text-md md:text-2xl text-yellow-700 mx-auto gap-3 md:gap-10"
           >
             <div
             @click="selectedDay = 'day02'"
@@ -242,7 +217,7 @@
           <!-- Display Information -->
           <div class="mt-5">
             <p v-if="selectedDay === 'day02'">
-              <h2 class="text-3xl md:text-4xl mt-20 font-khmer text-yellow-200">
+              <h2 class="text-3xl md:text-4xl mt-20 font-khmer text-yellow-500">
                កម្មវិធីពេលរសៀល
               </h2>
               <div class="mt-5">
@@ -252,33 +227,33 @@
               <h2 class="text-2xl md:text-4xl font-khmer-kh text-white">
                ម៉ោង២:០០រសៀល
               </h2>
-              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-200">
+              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-500">
                ពិធីក្រុងពាលី
               </h2>
               <div class="border bg-yellow-500 border-yellow-500 w-1 h-16 mt-2 m-auto"></div>
               <h2 class="text-2xl md:text-4xl font-khmer-kh text-white">
                ម៉ោង៣:០០រសៀល
               </h2>
-              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-200">
+              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-500">
                ពិធីសូត្រមន្តចម្រើនព្រះបរិត្ត
               </h2>
               <div class="border bg-yellow-500 border-yellow-500 w-1 h-16 mt-2 m-auto"></div>
               <h2 class="text-2xl md:text-4xl font-khmer-kh text-white">
                ម៉ោង៥:០០រសៀល
               </h2>
-              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-200">
+              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-500">
                 ពិធីកាត់ខាន់ស្លា
               </h2>
               <div class="border bg-yellow-500 border-yellow-500 w-1 h-16 mt-2 m-auto"></div>
               <h2 class="text-2xl md:text-4xl font-khmer-kh text-white">
                 ម៉ោង៦:០០រសៀល
               </h2>
-              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-200">
-               អញ្ជើញភ្ញៀវកិត្តិយសសេពសោយអាហារ
+              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-500">
+               អញ្ជើញភ្ញៀវកិត្តិយសពិសារភោជនាហារដោយមេត្រីភាព
               </h2>
             </p>
             <p v-if="selectedDay === 'day03'">
-              <h2 class="text-3xl md:text-4xl mt-20 font-khmer text-yellow-200">
+              <h2 class="text-3xl md:text-4xl mt-20 font-khmer text-yellow-500">
                កម្មវិធីពេលព្រឹក
               </h2>
               <div class="mt-5">
@@ -288,45 +263,45 @@
               <h2 class="text-2xl md:text-4xl font-khmer-kh text-white">
                ម៉ោង៦:៣០ព្រឹក
               </h2>
-              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-200">
+              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-500">
                ជួបជុំភ្ញៀវកិត្តិយសទាំងអស់ដើម្បីរៀបហែជំនូន
               </h2>
               <div class="border bg-yellow-500 border-yellow-500 w-1 h-16 mt-2 m-auto"></div>
               <h2 class="text-2xl md:text-4xl font-khmer-kh text-white">
                ម៉ោង៧:០០ព្រឹក
               </h2>
-              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-200">
+              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-500">
                ពិធីហែជំនូន (កំណត់)
               </h2>
               <div class="border bg-yellow-500 border-yellow-500 w-1 h-16 mt-2 m-auto"></div>
               <h2 class="text-2xl md:text-4xl font-khmer-kh text-white">
                ម៉ោង៨:៣០ព្រឹក
               </h2>
-              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-200">
+              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-500">
                ពិធីបំពាក់ចិញ្ចៀន
               </h2>
               <div class="border bg-yellow-500 border-yellow-500 w-1 h-16 mt-2 m-auto"></div>
               <h2 class="text-2xl md:text-4xl font-khmer-kh text-white">
                ម៉ោង៩:០០ព្រឹក
               </h2>
-              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-200">
+              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-500">
                ពិធីកាត់សក់បង្កក់សិរី
               </h2>
               <div class="border bg-yellow-500 border-yellow-500 w-1 h-16 mt-2 m-auto"></div>
               <h2 class="text-2xl md:text-4xl font-khmer-kh text-white">
                ម៉ោង១០:០០ព្រឹក
               </h2>
-              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-200">
+              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-500">
                ពិធីក្រាបសំពះផ្ទឹម ចងដៃ និងបាចផ្កាស្លា
               </h2>
               <div class="border bg-yellow-500 border-yellow-500 w-1 h-16 mt-2 m-auto"></div>
               <h2 class="text-2xl md:text-4xl font-khmer-kh text-white">
                ម៉ោង១២:០០ថ្ងៃត្រង់
               </h2>
-              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-200">
+              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-500">
                 អញ្ជើញភ្ញៀវកិត្តិយសពិសារភោជនាហារថ្ងៃត្រង់
               </h2>
-              <h2 class="text-3xl md:text-4xl mt-10 font-khmer text-yellow-200">
+              <h2 class="text-3xl md:text-4xl mt-10 font-khmer text-yellow-500">
                កម្មវិធីពេលល្ងាច
               </h2>
               <div class="mt-5">
@@ -336,11 +311,11 @@
               <h2 class="text-2xl md:text-4xl font-khmer-kh text-white">
                ម៉ោង៤:០០ល្ងាចតទៅ
               </h2>
-              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-200">
+              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-500">
                 អញ្ជើញភ្ញៀវកិត្តិយសពិសារភោជនាហារដោយមេត្រីភាព
               </h2>
               <div class="border  border-yellow-500 mt-10 m-auto rounded-2xl py-5">
-                <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-200">
+                <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-500">
                 អរគុណសម្រាប់ការចូលរួមរបស់លោកអ្នក
               </h2>
               </div>
