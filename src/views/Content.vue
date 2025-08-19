@@ -216,27 +216,28 @@
         <div class="p-1">
           <!-- Category Selection -->
           <div
-            class="flex justify-center items-center text-center w-96 md:w-[600px] bg-yellow-200 p-3 rounded-lg font-khmer text-md md:text-2xl  text-gray-400"
+          class="flex flex-col md:flex-row justify-center items-center text-center w-full max-w-[600px] bg-yellow-200 p-3 rounded-lg font-khmer text-md md:text-2xl text-gray-400 mx-auto gap-3 md:gap-10"
           >
             <div
-              @click="selectedDay = 'day02'"
-              :class="
-                selectedDay === 'day02' ? 'text-black bg-white w-40 h-10 md:w-60 items-center flex justify-center rounded-lg' : ''
-              "
-              class="cursor-pointer mr-10"
+            @click="selectedDay = 'day02'"
+            :class="[
+            'cursor-pointer px-4 py-2 rounded-lg w-full md:w-60 flex items-center justify-center',
+            selectedDay === 'day02' ? 'text-black bg-white' : ''
+            ]"
             >
-              ០២ វិច្ឆិកា
-            </div>
-            <div
-              @click="selectedDay = 'day03'"
-              :class="
-                selectedDay === 'day03' ? 'text-black bg-white w-40 h-10 md:w-60 items-center flex justify-center rounded-lg' : ''
-              "
-              class="cursor-pointer mr-10"
-            >
-              ០៣ វិច្ឆិកា
-            </div>
+            ០២ វិច្ឆិកា
           </div>
+          <div
+          @click="selectedDay = 'day03'"
+          :class="[
+          'cursor-pointer px-4 py-2 rounded-lg w-full md:w-60 flex items-center justify-center',
+          selectedDay === 'day03' ? 'text-black bg-white' : ''
+          ]"
+          >
+          ០៣ វិច្ឆិកា
+          </div>
+        </div>
+
 
           <!-- Display Information -->
           <div class="mt-5">
