@@ -25,8 +25,8 @@
           <div class="text-yellow-500 text-2xl md:text-3xl font-khmer-kh">
             កូនប្រុសនាម
           </div>
-          <div class="text-2xl md:text-5xl mt-4 md:mt-10">ជន</div>
-          <div class="text-2xl md:text-5xl mt-2 md:mt-10">សុខមាន</div>
+          <div class="text-2xl md:text-5xl mt-4 md:mt-10">អឿន</div>
+          <div class="text-2xl md:text-5xl mt-2 md:mt-10">វិជ្ជា</div>
         </div>
         <div class="w-66 h-66 font-bold mt-10">
           <img src="/src/assets/love1.png" alt="" />
@@ -35,15 +35,15 @@
           <div class="text-yellow-500 text-2xl md:text-3xl font-khmer-kh">
             កូនស្រីនាម
           </div>
-          <div class="text-2xl md:text-5xl mt-4 md:mt-10">រ៉ាន់</div>
-          <div class="text-2xl md:text-5xl mt-2 md:mt-10">សុខណា</div>
+          <div class="text-2xl md:text-5xl mt-4 md:mt-10">យៀង</div>
+          <div class="text-2xl md:text-5xl mt-2 md:mt-10">ស្រីនិច្ច</div>
         </div>
       </div>
       <div class="text-yellow-500 text-2xl md:text-3xl font-khmer-kh mt-20">
         ដែលនឹងប្រព្រឹត្តទៅនៅ
       </div>
       <div class="text-3xl md:text-5xl mt-4 md:mt-10 font-khmer">
-        ថ្ងៃពុធ ទី២៨ ខែមករា ឆ្នាំ២០២៦
+        ថ្ងៃចន្ទ ទី០៣ ខែវិច្ឆិកា ឆ្នាំ២០២៥
       </div>
       <div class="text-yellow-500 text-xl md:text-3xl font-khmer-kh mt-10">
         ទីតាំង ភូមិគោកខ្ពស់ ឃុំពេជសារ ស្រុកកោះអណ្តែត ខេត្តតាកែវ
@@ -51,7 +51,12 @@
       <button
         class="flex justify-center items-center mt-10 font-khmer-kh text-yellow-500 border-2 border-yellow-500 px-4 py-2 rounded-full"
       >
-        <div class="text-2xl md:text-4xl">បើកផែនទី</div>
+        <a href="https://maps.google.com/?q=11.467338,104.523792" target="_blank" rel="noopener noreferrer">
+          <div class="text-2xl md:text-4xl cursor-pointer text-red-400 hover:text-red-800">
+          បើកផែនទី
+          </div>
+        </a>
+
 
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -111,8 +116,8 @@
             <div class="text-yellow-500 text-2xl md:text-3xl font-khmer-kh">
               កូនប្រុសនាម
             </div>
-            <div class="text-2xl md:text-5xl mt-4 md:mt-10">ជន</div>
-            <div class="text-2xl md:text-5xl mt-2 md:mt-10">សុខមាន</div>
+            <div class="text-2xl md:text-5xl mt-4 md:mt-10">អឿន</div>
+            <div class="text-2xl md:text-5xl mt-2 md:mt-10">វិជ្ជា</div>
           </div>
           <div class="w-66 h-66 font-bold mt-10">
             <img src="/src/assets/love1.png" alt="" />
@@ -121,20 +126,25 @@
             <div class="text-yellow-500 text-2xl md:text-3xl font-khmer-kh">
               កូនស្រីនាម
             </div>
-            <div class="text-2xl md:text-5xl mt-4 md:mt-10">រ៉ាន់</div>
-            <div class="text-2xl md:text-5xl mt-2 md:mt-10">សុខណា</div>
+            <div class="text-2xl md:text-5xl mt-4 md:mt-10">យៀង</div>
+            <div class="text-2xl md:text-5xl mt-2 md:mt-10">ស្រីនិច្ច</div>
           </div>
         </div>
         <div class="text-yellow-500 text-2xl md:text-3xl font-khmer-kh mt-10">
           ដែលនឹងប្រព្រឹត្តទៅ
         </div>
         <div class="text-3xl md:text-5xl mt-4 md:mt-10 font-khmer">
-          ថ្ងៃពុធ ទី២៨ ខែមករា ឆ្នាំ២០២៦
+          ថ្ងៃចន្ទ ទី០៣ ខែវិច្ឆិកា ឆ្នាំ២០២៥
         </div>
         <button
           class="flex justify-center items-center mt-10 font-khmer-kh text-yellow-500 border-2 border-yellow-500 px-4 py-2 rounded-full mx-auto"
         >
-          <div class="text-2xl md:text-4xl">កត់ទុកក្នុងប្រតិទិន</div>
+          <a href="https://calendar.google.com/calendar/u/0/r/eventedit?text=កម្មវិធីអាពាហ៍ពិពាហ៍&dates=20251103T100000Z/20251103T120000Z&details=សូមមកចូលរួមកម្មវិធីរបស់យើង&location=Phnom%20Penh" target="_blank" rel="noopener noreferrer">
+            <div class="text-2xl md:text-4xl cursor-pointer text-red-400 hover:text-red-800">
+            កត់ទុកក្នុងប្រតិទិន
+            </div>
+          </a>
+
 
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -209,28 +219,28 @@
             class="flex justify-center items-center text-center w-96 md:w-[600px] bg-yellow-200 p-3 rounded-lg font-khmer text-md md:text-2xl  text-gray-400"
           >
             <div
-              @click="selectedDay = 'day22'"
+              @click="selectedDay = 'day02'"
               :class="
-                selectedDay === 'day22' ? 'text-black bg-white w-40 h-10 md:w-60 items-center flex justify-center rounded-lg' : ''
+                selectedDay === 'day02' ? 'text-black bg-white w-40 h-10 md:w-60 items-center flex justify-center rounded-lg' : ''
               "
               class="cursor-pointer mr-10"
             >
-              ២៧ មករា
+              ០២ វិច្ឆិកា
             </div>
             <div
-              @click="selectedDay = 'day23'"
+              @click="selectedDay = 'day03'"
               :class="
-                selectedDay === 'day23' ? 'text-black bg-white w-40 h-10 md:w-60 items-center flex justify-center rounded-lg' : ''
+                selectedDay === 'day03' ? 'text-black bg-white w-40 h-10 md:w-60 items-center flex justify-center rounded-lg' : ''
               "
               class="cursor-pointer mr-10"
             >
-              ២៨ មករា
+              ០៣ វិច្ឆិកា
             </div>
           </div>
 
           <!-- Display Information -->
           <div class="mt-5">
-            <p v-if="selectedDay === 'day22'">
+            <p v-if="selectedDay === 'day02'">
               <h2 class="text-3xl md:text-4xl mt-20 font-khmer text-yellow-200">
                កម្មវិធីពេលរសៀល
               </h2>
@@ -266,7 +276,7 @@
                អញ្ជើញភ្ញៀវកិត្តិយសសេពសោយអាហារ
               </h2>
             </p>
-            <p v-if="selectedDay === 'day23'">
+            <p v-if="selectedDay === 'day03'">
               <h2 class="text-3xl md:text-4xl mt-20 font-khmer text-yellow-200">
                កម្មវិធីពេលព្រឹក
               </h2>
@@ -343,7 +353,7 @@
 </template>
 <script setup>
 import { ref } from "vue";
-const selectedDay = ref("day22"); // Default selected day
+const selectedDay = ref("day02"); // Default selected day
 </script>
 
 <style>
