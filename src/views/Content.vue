@@ -15,9 +15,9 @@
 
     <!-- Content -->
     <div
-      class="relative z-10 flex flex-col items-center justify-start text-white text-center px-6 pt-20 pb-20 overflow-y-scroll h-screen"
+      class="relative z-10 flex flex-col items-center justify-start text-white text-center px-6 pt-10 pb-20 overflow-y-scroll h-screen"
     >
-      <section class="mt-40">
+      <section class>
         <h2 class="text-4xl md:text-6xl mt-20 font-khmer text-yellow-600">
           សិរីមង្គលអាពាហ៍ពិពាហ៍
         </h2>
