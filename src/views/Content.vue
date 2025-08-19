@@ -46,7 +46,7 @@
         ថ្ងៃចន្ទ ទី០៣ ខែវិច្ឆិកា ឆ្នាំ២០២៥
       </div>
       <div class="text-yellow-500 text-xl md:text-3xl font-khmer-kh mt-10">
-        ទីតាំង ភូមិគោកខ្ពស់ ឃុំពេជសារ ស្រុកកោះអណ្តែត ខេត្តតាកែវ
+        ទីតាំង ភូមិសំណង សង្កាតរកាធំ ក្រុងច្បារមន ខេត្តកំពង់ស្ពឺ
       </div>
       <button
         class="flex justify-center items-center mt-10 font-khmer-kh text-yellow-500 border-2 border-yellow-500 px-4 py-2 rounded-full"
@@ -94,12 +94,12 @@
           class="flex justify-between text-start items-center mt-20 font-khmer text-yellow-200 text-xl md:text-3xl md:w-1/2 mx-auto"
         >
           <div>
-            <div>លោក សៅ សោភណ្ឌ</div>
-            <div>លោកស្រី សន ឡាយហួយ</div>
+            <div>លោក ឆន អឿន</div>
+            <div>លោកស្រី គ្រី​ ទូច</div>
           </div>
           <div>
-            <div>លោក អ៊ុក ចន្នី</div>
-            <div>លោកស្រី ឈួន ស្រី</div>
+            <div>លោក ចាន់ ដារិទ្ធ</div>
+            <div>លោកស្រី រិត សុខឃឿន</div>
           </div>
         </div>
         <div  
