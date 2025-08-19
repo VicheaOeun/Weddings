@@ -49,11 +49,9 @@ onMounted(() => {
       <!-- Couple Names -->
       <div class="flex items-center justify-center gap-4 md:gap-8 mt-[-50px]">
         <div class="text-right">
-          <p class="text-white text-3xl md:text-5xl font-khmer">អឿន វិជ្ជា</p>
         </div>
-        <img src="/src/assets/love.png" alt="" class="w-20 h-20 md:w-32 md:h-32"/>
+        <img src="/src/assets/love.png" alt="" class="w-80 h-80 md:w-32 md:h-32"/>
         <div class="text-left">
-          <p class="text-white text-3xl md:text-5xl font-khmer">យៀង ស្រីនិច្ច</p>
         </div>
       </div>
 
@@ -98,9 +96,6 @@ onMounted(() => {
         បើកធៀប
       </button>
       
-      <p class="font-khmer-kh pt-6 text-red-400 text-sm md:text-base">
-        ចុចអេក្រង់ដើម្បីបើកធៀបអេឡិចត្រូនិច
-      </p>
     </div>
   </div>
 </template>
