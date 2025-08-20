@@ -43,25 +43,33 @@
           អញ្ជើញចូលរួមជាអធិបតី និងជាភ្ញៀវកិត្តិយស ដើម្បីប្រសិទ្ធពរជ័យ សិរីសួស្ដី
           ជ័យមង្គល ក្នុងពិធីរៀបអាពាហ៍ពិពាហ៍ កូនប្រុស-កូនស្រី របស់យើងខ្ញុំ
         </div>
-        <div
-          class="flex items-center mt-10 font-khmer md:w-1/1 mx-auto"
-        >
-          <div>
-            <div class="text-yellow-600 text-2xl md:text-3xl font-khmer-kh main-title">
-              កូនប្រុសនាម
-            </div>
-            <div class="text-2xl md:text-5xl mt-4 md:mt-10 name">អឿន វិជ្ជា</div>
-          </div>
-          <div class="w-40 h-40 mt-10">
-            <img src="/src/assets/love1.png" alt="" />
-          </div>
-          <div>
-            <div class="text-yellow-600 text-2xl md:text-3xl font-khmer-kh main-title">
-              កូនស្រីនាម
-            </div>
-            <div class="text-2xl md:text-5xl mt-4 md:mt-10 name">យៀង ស្រីនិច្ច</div>
-          </div>
-        </div>
+        <div class="flex justify-between items-center w-full max-w-5xl mx-auto mt-10 px-4 font-khmer">
+  <!-- Groom -->
+  <div class="text-right flex-1">
+    <div class="text-yellow-600 text-xl md:text-3xl font-khmer-kh">
+      កូនប្រុសនាម
+    </div>
+    <div class="text-red-600 text-2xl md:text-5xl font-bold mt-2">
+      អឿន វិជ្ជា
+    </div>
+  </div>
+
+  <!-- Love Icon -->
+  <div class="w-24 md:w-40 h-24 md:h-40 mx-4 flex-shrink-0">
+    <img src="/src/assets/love1.png" alt="Love Icon" class="w-full h-full object-contain" />
+  </div>
+
+  <!-- Bride -->
+  <div class="text-left flex-1">
+    <div class="text-yellow-600 text-xl md:text-3xl font-khmer-kh">
+      កូនស្រីនាម
+    </div>
+    <div class="text-red-600 text-2xl md:text-5xl font-bold mt-2">
+      យៀង ស្រីនិច្ច
+    </div>
+  </div>
+</div>
+
         <div class="text-yellow-600 text-2xl md:text-3xl font-khmer-kh mt-10">
           ដែលនឹងប្រព្រឹត្តទៅ
         </div>
