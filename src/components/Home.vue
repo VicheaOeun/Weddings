@@ -56,10 +56,8 @@ onMounted(() => {
       </div>
 
       <!-- Wedding Date -->
-      <div class="mt-8 text-red-400">
-        <p class="text-xl md:text-2xl font-khmer-kh rose-gold-text">ពិធីរៀបអាពាហ៍ពិពាហ៍</p>
-        <p class="text-2xl md:text-4xl font-khmer mt-2 date">ថ្ងៃចន្ទ ០៣ វិច្ឆិកា ២០២៥</p>
-      </div>
+      <div class="text-xl md:text-2xl font-khmer-kh rose-gold-text mt-2">ពិធីរៀបអាពាហ៍ពិពាហ៍</div>
+      <div class="rose-gold-date text-2xl md:text-4xl font-khmer mt-5">ថ្ងៃចន្ទ ០៣ វិច្ឆិកា ២០២៥</div>
 
       <!-- Countdown Timer -->
       <div class="mt-10 bg-black/30 p-6 rounded-xl backdrop-blur-sm border border-red-400/50">
@@ -84,14 +82,14 @@ onMounted(() => {
       </div>
 
       <!-- Welcome Message -->
-      <h3 class="text-2xl md:text-4xl mt-12 font-khmer text-red-400">
+      <h3 class="text-2xl md:text-4xl mt-12 font-khmer text-red-400 rose-gold-text">
         សូមគោរពអញ្ជើញភ្ញៀវកិត្តិយស
       </h3>
 
       <!-- Open Button -->
       <button
         @click="emit('openContent')"
-        class="mt-10 px-12 py-3 md:px-20 md:py-4 text-xl md:text-3xl border-3 border-red-400 rounded-full text-red-400 font-khmer hover:bg-[#F8F8FF] transition-all duration-300 animate-pulse"
+        class="rose-gold-text mt-10 px-12 py-3 md:px-20 md:py-4 text-xl md:text-3xl border-3 border-red-400 rounded-full text-red-400 font-khmer hover:bg-[#F8F8FF] transition-all duration-300 animate-pulse"
       >
         បើកធៀប
       </button>

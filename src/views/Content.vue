@@ -460,8 +460,31 @@ button:hover a div {
 
   /* 3D Shadow */
   text-shadow:
-    1px 1px 0 #4a1f29,              /* dark rose edge */
+    1px 1px 0 #7f3b4b,              /* dark rose edge */
     2px 2px 4px rgba(0, 0, 0, 0.3); /* soft outer glow */
 }
 
+.rose-gold-date {
+  display: inline-block;
+  font-family: 'Khmer OS Muol Light', 'Koulen', sans-serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+
+  /* Gradient rose-gold + pink */
+  background-image: linear-gradient(
+    to right,
+    #b76e79,   /* rose */
+    #d7a3a3,   /* soft blush */
+    #f3d1d1,   /* pale pink highlight */
+    #d49fa3,   /* muted pink */
+    #a45a6e    /* deep rose */
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* 3D Shadow */
+  text-shadow:
+    1px 1px 0 #7f3b4b,              /* dark rose edge */
+    2px 2px 4px rgba(0, 0, 0, 0.3); /* soft outer glow */
+}
 </style>
