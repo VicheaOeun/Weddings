@@ -82,14 +82,14 @@ onMounted(() => {
       </div>
 
       <!-- Welcome Message -->
-      <h3 class="text-2xl md:text-4xl mt-12 font-khmer text-red-400 rose-gold-text">
+      <h3 class="text-2xl md:text-4xl mt-12 font-khmer text-red-400 rose-gold-date">
         សូមគោរពអញ្ជើញភ្ញៀវកិត្តិយស
       </h3>
 
       <!-- Open Button -->
       <button
         @click="emit('openContent')"
-        class="rose-gold-text mt-10 px-12 py-3 md:px-20 md:py-4 text-xl md:text-3xl border-3 border-red-400 rounded-full text-red-400 font-khmer hover:bg-[#F8F8FF] transition-all duration-300 animate-pulse"
+        class="rose-gold-date mt-10 px-12 py-3 md:px-20 md:py-4 text-xl md:text-3xl border-3 border-red-400 rounded-full text-red-400 font-khmer hover:bg-[#F8F8FF] transition-all duration-300 animate-pulse"
       >
         បើកធៀប
       </button>

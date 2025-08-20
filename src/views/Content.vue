@@ -22,18 +22,34 @@
           សិរីមង្គលអាពាហ៍ពិពាហ៍
         </h2>
         <div
-          class="flex justify-between text-start items-center mt-20 font-khmer text-yellow-700 text-xl md:text-3xl md:w-1/2 mx-auto"
+          class="flex justify-between items-center mt-20 font-khmer text-yellow-700 text-xl md:text-3xl md:w-1/2 mx-auto"
         >
-          <div>
+          <div class="text-center">
             <div class="parents">លោក ឆន អឿន</div>
-            <div class="parents">លោកស្រី គ្រី​ ទូច</div>
+            <div class="parents">លោកស្រី គ្រី ទូច</div>
           </div>
-          <div>
+          <div class="text-center">
             <div class="parents">លោក ចាន់ ដារិទ្ធ</div>
             <div class="parents">លោកស្រី រិត សុខឃឿន</div>
           </div>
         </div>
-        <div class="text-yellow-600 text-2xl md:text-3xl font-khmer-kh mt-20 main-title">
+        <div
+          class="flex justify-between items-center mt-10 font-khmer md:w-full mx-auto"
+        >
+          <div class="text-center">
+            <div class="text-yellow-600 text-2xl md:text-3xl font-khmer-kh main-title">
+              កូនប្រុសនាម
+            </div>
+            <div class="text-2xl md:text-5xl mt-4 md:mt-10 rose-gold-text">អឿន វិជ្ជា</div>
+          </div>
+          <div class="text-center">
+            <div class="text-yellow-600 text-2xl md:text-3xl font-khmer-kh main-title">
+              កូនស្រីនាម
+            </div>
+            <div class="text-2xl md:text-5xl mt-4 md:mt-10 rose-gold-text">យៀង ស្រីនិច្ច</div>
+          </div>
+        </div>
+        <div class="text-yellow-600 text-2xl md:text-3xl font-khmer-kh mt-30 main-title">
               សូមគោរពអញ្ជើញ
         </div>
         <div  
@@ -43,44 +59,18 @@
           អញ្ជើញចូលរួមជាអធិបតី និងជាភ្ញៀវកិត្តិយស ដើម្បីប្រសិទ្ធពរជ័យ សិរីសួស្ដី
           ជ័យមង្គល ក្នុងពិធីរៀបអាពាហ៍ពិពាហ៍ កូនប្រុស-កូនស្រី របស់យើងខ្ញុំ
         </div>
-        <div class="flex justify-between items-center w-full max-w-5xl mx-auto mt-10 px-4 font-khmer">
-  <!-- Groom -->
-  <div class="text-right flex-1">
-    <div class="text-yellow-600 text-xl md:text-3xl font-khmer-kh">
-      កូនប្រុសនាម
-    </div>
-    <div class="text-red-600 text-2xl md:text-5xl font-bold mt-2">
-      អឿន វិជ្ជា
-    </div>
-  </div>
 
-  <!-- Love Icon -->
-  <div class="w-24 md:w-40 h-24 md:h-40 mx-4 flex-shrink-0">
-    <img src="/src/assets/love1.png" alt="Love Icon" class="w-full h-full object-contain" />
-  </div>
-
-  <!-- Bride -->
-  <div class="text-left flex-1">
-    <div class="text-yellow-600 text-xl md:text-3xl font-khmer-kh">
-      កូនស្រីនាម
-    </div>
-    <div class="text-red-600 text-2xl md:text-5xl font-bold mt-2">
-      យៀង ស្រីនិច្ច
-    </div>
-  </div>
-</div>
-
-        <div class="text-yellow-600 text-2xl md:text-3xl font-khmer-kh mt-10">
+        <div class="text-yellow-600 text-2xl md:text-3xl font-khmer-kh mt-20">
           ដែលនឹងប្រព្រឹត្តទៅ
         </div>
-        <div class="text-3xl md:text-5xl mt-4 md:mt-10 font-khmer main-title">
+        <div class="text-3xl md:text-5xl mt-4 md:mt-20 font-khmer main-title2">
           ថ្ងៃចន្ទ ទី០៣ ខែវិច្ឆិកា ឆ្នាំ២០២៥
         </div>
         <button
-          class="flex justify-center items-center mt-10 font-khmer-kh text-yellow-500 border-2 border-yellow-500 px-4 py-2 rounded-full mx-auto"
+          class="flex justify-center items-center mt-10 font-khmer-kh text-white-100 border-2 border-yellow-500 px-4 py-2 rounded-full mx-auto"
         >
           <a href="https://calendar.google.com/calendar/u/0/r/eventedit?text=កម្មវិធីអាពាហ៍ពិពាហ៍&dates=20251103T100000Z/20251103T120000Z&details=សូមមកចូលរួមកម្មវិធីរបស់យើង&location=Phnom%20Penh" target="_blank" rel="noopener noreferrer">
-            <div class="text-2xl md:text-4xl cursor-pointer text-yellow-500 hover:text-red-800">
+            <div class="text-2xl md:text-4xl cursor-pointer text-yellow-100 hover:text-red-800">
             កត់ទុកក្នុងប្រតិទិន
             </div>
           </a>
@@ -190,14 +180,14 @@
       </section>
       <section class="mt-40">
         <h2
-          class="text-4xl md:text-6xl mt-20 font-khmer text-yellow-600 mb-5 md:mb-20 main-title"
+          class="text-4xl md:text-6xl mt-20 font-khmer text-yellow-600 mb-5 md:mb-20 main-title2"
         >
           កម្មវិធីមង្គលអាពាហ៍ពិពាហ៍
         </h2>
         <div class="p-1">
           <!-- Category Selection -->
           <div
-          class="flex flex-col md:flex-row justify-center items-center text-center w-full max-w-[600px] bg-yellow-500 p-3 rounded-lg font-khmer text-md md:text-2xl text-yellow-700 mx-auto gap-3 md:gap-10"
+          class="flex flex-col md:flex-row justify-center items-center text-center w-full max-w-[300px] bg-yellow-600 p-3 rounded-lg font-khmer text-md md:text-2xl text-yellow-700 mx-auto gap-3 md:gap-10"
           >
             <div
             @click="selectedDay = 'day02'"
@@ -354,16 +344,43 @@ body {
 h1, .main-title {
   color: #81666d; /* deep rose gold */
   font-weight: bold;
-
   text-shadow:
-    1px 1px 0 #242323,              /* dark rose edge */
+    0.1px 0.5px 0 #f3a9a9,    /* dark rose edge */
+    2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.main-title2 {
+  color: #81666d; /* deep rose gold */
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-shadow:
+    0.1px 0.5px 0 #f3a9a9,    /* dark rose edge */
     2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 /* Parents Names */
 .parents {
-  color: #af4144; /* lighter rose-gold */
-  font-weight: 700;
+  display: inline-block;
+  font-family: 'Khmer OS Muol Light', 'Koulen', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+
+  /* Gradient rose-gold + pink */
+  background-image: linear-gradient(
+    to right,
+    #b76e79,   /* rose */
+    #d7a3a3,   /* soft blush */
+    #f3d1d1,   /* pale pink highlight */
+    #d49fa3,   /* muted pink */
+    #a45a6e    /* deep rose */
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* 3D Shadow */
+  text-shadow:
+    1px 1px 0 #7f3b4b,              /* dark rose edge */
+    2px 2px 4px rgba(0, 0, 0, 0.3); /* soft outer glow */
 }
 
 /* Body Paragraph (សូមកោតអញ្ជើញ...) */
@@ -392,9 +409,9 @@ p {
 
 /* Normal text */
 p, span, div {
-  color: #f5e5f2; /* Champagne */
+  color: #b76e79; /* Champagne */
   text-shadow: 
-  1px 1px 2px rgba(0,0,0,0.5); /* keep only elegant dark shadow */
+  1px 1px 2px rgba(131, 52, 52, 0.5); /* keep only elegant dark shadow */
 }
 
 /* Buttons */
@@ -445,10 +462,6 @@ button:hover a div {
   text-shadow:
     1px 1px 0 #7f3b4b,              /* dark rose edge */
     2px 2px 4px rgba(0, 0, 0, 0.3); /* soft outer glow */
-}
-
-.text-2xl{
-  font-size: 1.4rem;
 }
 
 .rose-gold-date {
