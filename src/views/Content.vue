@@ -50,18 +50,16 @@
             <div class="text-yellow-600 text-2xl md:text-3xl font-khmer-kh main-title">
               កូនប្រុសនាម
             </div>
-            <div class="text-2xl md:text-5xl mt-4 md:mt-10 name">អឿន</div>
-            <div class="text-2xl md:text-5xl mt-2 md:mt-10 name">វិជ្ជា</div>
+            <div class="text-2xl md:text-5xl mt-4 md:mt-10 name">អឿន វិជ្ជា</div>
           </div>
-          <div class="w-66 h-66 font-bold mt-10">
+          <div class="w-50 h-50 font-bold mt-10">
             <img src="/src/assets/love1.png" alt="" />
           </div>
           <div>
             <div class="text-yellow-600 text-2xl md:text-3xl font-khmer-kh main-title">
               កូនស្រីនាម
             </div>
-            <div class="text-2xl md:text-5xl mt-4 md:mt-10 name">យៀង</div>
-            <div class="text-2xl md:text-5xl mt-2 md:mt-10 name">ស្រីនិច្ច</div>
+            <div class="text-2xl md:text-5xl mt-4 md:mt-10 name">យៀង ស្រីនិច្ច</div>
           </div>
         </div>
         <div class="text-yellow-600 text-2xl md:text-3xl font-khmer-kh mt-10">
