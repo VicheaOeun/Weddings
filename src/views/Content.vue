@@ -445,7 +445,7 @@ button:hover a div {
 .rose-gold-text {
   display: inline-block;
   font-family: 'Khmer OS Muol Light', 'Koulen', sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: bold;
 
   /* Gradient rose-gold + pink */
@@ -467,13 +467,13 @@ button:hover a div {
 }
 
 .text-2xl{
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 
 .rose-gold-date {
   display: inline-block;
   font-family: 'Khmer OS Muol Light', 'Koulen', sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-weight: bold;
 
   /* Gradient rose-gold + pink */
