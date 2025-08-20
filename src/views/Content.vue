@@ -349,7 +349,7 @@ h1, .main-title {
   color: #A05252; /* deep rose gold */
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   font-weight: bold;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 /* Parents Names */
@@ -377,7 +377,7 @@ p {
 .date {
   color: #8B3A3A; /* strong deep rose-gold */
   font-weight: bold;
-  font-size: 35px;
+  font-size: 30px;
 }
 
 /* Elegant Wedding Theme Colors */
