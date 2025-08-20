@@ -18,22 +18,22 @@
       class="relative z-10 flex flex-col items-center justify-start text-white text-center px-6 pt-10 pb-20 overflow-y-scroll h-screen"
     >
       <section class>
-        <h2 class="text-4xl md:text-6xl mt-20 font-khmer text-yellow-600">
+        <h2 class="text-4xl md:text-6xl mt-20 font-khmer text-yellow-600 main-title">
           សិរីមង្គលអាពាហ៍ពិពាហ៍
         </h2>
         <div
           class="flex justify-between text-start items-center mt-20 font-khmer text-yellow-700 text-xl md:text-3xl md:w-1/2 mx-auto"
         >
           <div>
-            <div>លោក ឆន អឿន</div>
-            <div>លោកស្រី គ្រី​ ទូច</div>
+            <div class="parents">លោក ឆន អឿន</div>
+            <div class="parents">លោកស្រី គ្រី​ ទូច</div>
           </div>
           <div>
-            <div>លោក ចាន់ ដារិទ្ធ</div>
-            <div>លោកស្រី រិត សុខឃឿន</div>
+            <div class="parents">លោក ចាន់ ដារិទ្ធ</div>
+            <div class="parents">លោកស្រី រិត សុខឃឿន</div>
           </div>
         </div>
-        <div class="text-yellow-600 text-2xl md:text-3xl font-khmer-kh mt-20">
+        <div class="text-yellow-600 text-2xl md:text-3xl font-khmer-kh mt-20 main-title">
               សូមគោរពអញ្ជើញ
         </div>
         <div  
@@ -47,27 +47,27 @@
           class="flex justify-between items-center mt-10 font-khmer md:w-1/2 mx-auto"
         >
           <div>
-            <div class="text-yellow-600 text-2xl md:text-3xl font-khmer-kh">
+            <div class="text-yellow-600 text-2xl md:text-3xl font-khmer-kh main-title">
               កូនប្រុសនាម
             </div>
-            <div class="text-2xl md:text-5xl mt-4 md:mt-10">អឿន</div>
-            <div class="text-2xl md:text-5xl mt-2 md:mt-10">វិជ្ជា</div>
+            <div class="text-2xl md:text-5xl mt-4 md:mt-10 name">អឿន</div>
+            <div class="text-2xl md:text-5xl mt-2 md:mt-10 name">វិជ្ជា</div>
           </div>
           <div class="w-66 h-66 font-bold mt-10">
             <img src="/src/assets/love1.png" alt="" />
           </div>
           <div>
-            <div class="text-yellow-600 text-2xl md:text-3xl font-khmer-kh">
+            <div class="text-yellow-600 text-2xl md:text-3xl font-khmer-kh main-title">
               កូនស្រីនាម
             </div>
-            <div class="text-2xl md:text-5xl mt-4 md:mt-10">យៀង</div>
-            <div class="text-2xl md:text-5xl mt-2 md:mt-10">ស្រីនិច្ច</div>
+            <div class="text-2xl md:text-5xl mt-4 md:mt-10 name">យៀង</div>
+            <div class="text-2xl md:text-5xl mt-2 md:mt-10 name">ស្រីនិច្ច</div>
           </div>
         </div>
         <div class="text-yellow-600 text-2xl md:text-3xl font-khmer-kh mt-10">
           ដែលនឹងប្រព្រឹត្តទៅ
         </div>
-        <div class="text-3xl md:text-5xl mt-4 md:mt-10 font-khmer">
+        <div class="text-3xl md:text-5xl mt-4 md:mt-10 font-khmer date">
           ថ្ងៃចន្ទ ទី០៣ ខែវិច្ឆិកា ឆ្នាំ២០២៥
         </div>
         <button
@@ -336,15 +336,88 @@ const selectedDay = ref("day02"); // Default selected day
 @import url("https://fonts.googleapis.com/css2?family=Koulen&family=Lavishly+Yours&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@300;400;700&display=swap");
 
-.font-khmer-kh {
-  font-family: "Kantumruy Pro", sans-serif;
-}
 
-.font-khmer {
-  font-family: "Koulen", serif;
-}
-
+/* General Background */
 body {
-  scroll-padding-top: 100px;
+  background: linear-gradient(to bottom, #fff6f7, #fbe9eb);
+  color: #B76E79; /* default rose-gold text */
+  font-family: 'Khmer OS Battambang', sans-serif;
 }
+
+/* Main Title (សិរីមង្គលអាពាហ៍ពិពាហ៍) */
+h1, .main-title {
+  color: #A05252; /* deep rose gold */
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-weight: bold;
+  font-size: 50px;
+}
+
+/* Parents Names */
+.parents {
+  color: #C08081; /* lighter rose-gold */
+  font-weight: 500;
+}
+
+/* Body Paragraph (សូមកោតអញ្ជើញ...) */
+p {
+  color: #B76E79; /* medium rose-gold */
+  line-height: 1.7;
+}
+
+/* Bride & Groom Names */
+.name {
+  background: linear-gradient(135deg, #FFDAB9 0%, #B76E79 40%, #8B3A3A 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #8B3A3A;
+}
+
+/* Highlight Date */
+.date {
+  color: #8B3A3A; /* strong deep rose-gold */
+  font-weight: bold;
+  font-size: 35px;
+}
+
+/* Elegant Wedding Theme Colors */
+:root {
+  --gold: #D4AF37;
+  --champagne: #F5E6CC;
+  --blush: #E6A4B4;
+  --lavender: #C8A2C8;
+  --white: #FFFFFF;
+}
+
+/* Normal text */
+p, span, div {
+  color: #F5E6CC; /* Champagne */
+  text-shadow: 
+    1px 1px 2px rgba(0,0,0,0.5); /* keep only elegant dark shadow */
+}
+
+/* Buttons */
+button a div {
+  background: linear-gradient(135deg, var(--gold), var(--blush));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+button {
+  border: 2px solid var(--gold);
+  padding: 10px 20px;
+  border-radius: 9999px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(135deg, var(--gold), var(--blush));
+  border-color: transparent;
+}
+
+button:hover a div {
+  -webkit-text-fill-color: white;
+}
+
 </style>

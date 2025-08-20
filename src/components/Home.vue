@@ -57,8 +57,8 @@ onMounted(() => {
 
       <!-- Wedding Date -->
       <div class="mt-8 text-red-400">
-        <p class="text-xl md:text-2xl font-khmer-kh">ពិធីរៀបអាពាហ៍ពិពាហ៍</p>
-        <p class="text-2xl md:text-4xl font-khmer mt-2">ថ្ងៃចន្ទ ០៣ វិច្ឆិកា ២០២៥</p>
+        <p class="text-xl md:text-2xl font-khmer-kh main-title">ពិធីរៀបអាពាហ៍ពិពាហ៍</p>
+        <p class="text-2xl md:text-4xl font-khmer mt-2 date">ថ្ងៃចន្ទ ០៣ វិច្ឆិកា ២០២៥</p>
       </div>
 
       <!-- Countdown Timer -->
