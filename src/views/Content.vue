@@ -335,27 +335,27 @@ const selectedDay = ref("day02"); // Default selected day
 
 /* General Background */
 body {
-  background: linear-gradient(to bottom, #fff6f7, #fbe9eb);
-  color: #B76E79; /* default rose-gold text */
+  background: linear-gradient(to bottom, #fff6f7, #ffeef0); /* slightly lighter pink */
+  color: #d77c8d; /* lighter rose-gold text */
   font-family: 'Khmer OS Battambang', sans-serif;
 }
 
-/* Main Title (សិរីមង្គលអាពាហ៍ពិពាហ៍) */
+/* Main Title */
 h1, .main-title {
-  color: #81666d; /* deep rose gold */
+  color: #c08b95; /* lighter rose gold */
   font-weight: bold;
   text-shadow:
-    0.1px 0.5px 0 #f3a9a9,    /* dark rose edge */
-    2px 2px 4px rgba(0, 0, 0, 0.2);
+    0.1px 0.5px 0 #f8c8c8,    /* lighter edge */
+    1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .main-title2 {
-  color: #81666d; /* deep rose gold */
+  color: #c08b95;
   font-size: 1.7rem;
   font-weight: bold;
   text-shadow:
-    0.1px 0.5px 0 #f3a9a9,    /* dark rose edge */
-    2px 2px 4px rgba(0, 0, 0, 0.2);
+    0.1px 0.5px 0 #f8c8c8,
+    1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 /* Parents Names */
@@ -365,53 +365,50 @@ h1, .main-title {
   font-size: 1.2rem;
   font-weight: bold;
 
-  /* Gradient rose-gold + pink */
   background-image: linear-gradient(
     to right,
-    #b76e79,   /* rose */
-    #d7a3a3,   /* soft blush */
-    #f3d1d1,   /* pale pink highlight */
-    #d49fa3,   /* muted pink */
-    #a45a6e    /* deep rose */
+    #eaa5af,  /* pastel rose */
+    #f4c7c9,  /* soft blush */
+    #ffe3e5,  /* pale pink */
+    #f7c4c7,  /* muted pink */
+    #e68b95   /* light rose */
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
-  /* 3D Shadow */
   text-shadow:
-    1px 1px 0 #7f3b4b,              /* dark rose edge */
-    2px 2px 4px rgba(0, 0, 0, 0.3); /* soft outer glow */
+    0.5px 0.5px 0 #d37a84, /* soft shadow */
+    1px 1px 3px rgba(0, 0, 0, 0.15);
 }
 
-/* Body Paragraph (សូមកោតអញ្ជើញ...) */
+/* Body Paragraph */
 p {
-  color: #B76E79; /* medium rose-gold */
+  color: #d77c8d; /* lighter rose-gold */
   line-height: 1.7;
 }
 
 /* Bride & Groom Names */
 .name {
-  background: linear-gradient(135deg, #FFDAB9 0%, #B76E79 40%, #8B3A3A 80%);
+  background: linear-gradient(135deg, #ffe0d1 0%, #f4b1b3 50%, #e6898f 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
-  text-shadow: 1px 1px 2px #8B3A3A;
+  text-shadow: 0.5px 0.5px 1px #d37a84;
 }
 
 /* Elegant Wedding Theme Colors */
 :root {
-  --gold: #b76e79;
-  --champagne: #F5E6CC;
-  --blush: #E6A4B4;
-  --lavender: #C8A2C8;
+  --gold: #eaa5af;       /* pastel rose-gold */
+  --champagne: #fff4e6;  /* light champagne */
+  --blush: #f4c7c9;      /* soft blush */
+  --lavender: #e8c8e8;   /* light lavender */
   --white: #FFFFFF;
 }
 
 /* Normal text */
 p, span, div {
-  color: #b76e79; /* Champagne */
-  text-shadow: 
-  1px 1px 2px rgba(131, 52, 52, 0.5); /* keep only elegant dark shadow */
+  color: #eaa5af;
+  text-shadow: 0.5px 0.5px 1px rgba(131, 52, 52, 0.15);
 }
 
 /* Buttons */
@@ -438,30 +435,23 @@ button:hover a div {
   -webkit-text-fill-color: white;
 }
 
-/*Home*/
-
+/* Home */
 .rose-gold-text {
   display: inline-block;
   font-family: 'Khmer OS Muol Light', 'Koulen', sans-serif;
   font-size: 1.8rem;
   font-weight: bold;
-
-  /* Gradient rose-gold + pink */
   background-image: linear-gradient(
     to right,
-    #b76e79,   /* rose */
-    #d7a3a3,   /* soft blush */
-    #f3d1d1,   /* pale pink highlight */
-    #d49fa3,   /* muted pink */
-    #a45a6e    /* deep rose */
+    #eaa5af,
+    #f4c7c9,
+    #ffe3e5,
+    #f7c4c7,
+    #e68b95
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
-  /* 3D Shadow */
-  text-shadow:
-    1px 1px 0 #7f3b4b,              /* dark rose edge */
-    2px 2px 4px rgba(0, 0, 0, 0.3); /* soft outer glow */
+  text-shadow: 0.5px 0.5px 1px #d37a84, 1px 1px 3px rgba(0, 0, 0, 0.15);
 }
 
 .rose-gold-date {
@@ -469,23 +459,17 @@ button:hover a div {
   font-family: 'Khmer OS Muol Light', 'Koulen', sans-serif;
   font-size: 1.4rem;
   font-weight: bold;
-
-  /* Gradient rose-gold + pink */
   background-image: linear-gradient(
     to right,
-    #b76e79,   /* rose */
-    #d7a3a3,   /* soft blush */
-    #f3d1d1,   /* pale pink highlight */
-    #d49fa3,   /* muted pink */
-    #a45a6e    /* deep rose */
+    #eaa5af,
+    #f4c7c9,
+    #ffe3e5,
+    #f7c4c7,
+    #e68b95
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
-  /* 3D Shadow */
-  text-shadow:
-    1px 1px 0 #7f3b4b,              /* dark rose edge */
-    2px 2px 4px rgba(0, 0, 0, 0.3); /* soft outer glow */
+  text-shadow: 0.5px 0.5px 1px #d37a84, 1px 1px 3px rgba(0, 0, 0, 0.15);
 }
-/*Home*/
+
 </style>
