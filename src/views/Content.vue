@@ -417,4 +417,27 @@ button:hover a div {
   -webkit-text-fill-color: white;
 }
 
+.fancy-text {
+  display: inline-block;
+  font-family: 'Khmer OS Muol Light', 'Koulen', sans-serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+
+  /* Gradient text fill */
+  background-image: linear-gradient(to right,
+    #c89d2c,    /* gold brown */
+    #dbb875,    /* soft gold */
+    #ffffff,    /* white center */
+    #e4b2a0,    /* soft pink */
+    #b37979     /* rose */
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* 3D shadow effect */
+  text-shadow:
+    1px 1px 0 #00000044,
+    2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
 </style>
