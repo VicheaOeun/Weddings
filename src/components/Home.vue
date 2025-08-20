@@ -114,11 +114,11 @@ onMounted(() => {
 @keyframes pulse {
   0%, 100% {
     transform: scale(1);
-    box-shadow: 0 0 0 0 rgba(139, 0, 0, 0.8);
+    box-shadow: 0 0 0 0 rgba(229, 71, 71, 0.8);
   }
   50% {
     transform: scale(1.05);
-    box-shadow: 0 0 20px 5px rgba(139, 0, 0, 0.8);
+    box-shadow: 0 0 20px 5px rgba(186, 19, 19, 0.8);
   }
 }
 

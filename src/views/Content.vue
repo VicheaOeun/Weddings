@@ -379,7 +379,7 @@ p {
 
 /* Elegant Wedding Theme Colors */
 :root {
-  --gold: #D4AF37;
+  --gold: #b76e79;
   --champagne: #F5E6CC;
   --blush: #E6A4B4;
   --lavender: #C8A2C8;
@@ -390,7 +390,7 @@ p {
 p, span, div {
   color: #F5E6CC; /* Champagne */
   text-shadow: 
-    1px 1px 2px rgba(0,0,0,0.5); /* keep only elegant dark shadow */
+  1px 1px 2px rgba(0,0,0,0.5); /* keep only elegant dark shadow */
 }
 
 /* Buttons */
@@ -440,10 +440,12 @@ button:hover a div {
     2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
+
+
 .rose-gold-text {
   display: inline-block;
   font-family: 'Khmer OS Muol Light', 'Koulen', sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: bold;
 
   /* Gradient rose-gold + pink */
@@ -464,10 +466,14 @@ button:hover a div {
     2px 2px 4px rgba(0, 0, 0, 0.3); /* soft outer glow */
 }
 
+.text-2xl{
+  font-size: 1.3rem;
+}
+
 .rose-gold-date {
   display: inline-block;
   font-family: 'Khmer OS Muol Light', 'Koulen', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: bold;
 
   /* Gradient rose-gold + pink */
