@@ -335,27 +335,27 @@ const selectedDay = ref("day02"); // Default selected day
 
 /* General Background */
 body {
-  background: linear-gradient(to bottom, #fff6f7, #ffeef0); /* slightly lighter pink */
-  color: #d77c8d; /* lighter rose-gold text */
+  background: linear-gradient(to bottom, #fffafc, #fff0f3); /* very light pink */
+  color: #f2a8b0; /* soft rose-gold text */
   font-family: 'Khmer OS Battambang', sans-serif;
 }
 
 /* Main Title */
 h1, .main-title {
-  color: #c08b95; /* lighter rose gold */
+  color: #f2a8b0; /* soft rose gold */
   font-weight: bold;
   text-shadow:
-    0.1px 0.5px 0 #f8c8c8,    /* lighter edge */
-    1px 1px 3px rgba(0, 0, 0, 0.1);
+    0.5px 0.5px 1px #fcdde1, /* very subtle highlight */
+    1px 1px 2px rgba(0, 0, 0, 0.05); /* tiny soft shadow */
 }
 
 .main-title2 {
-  color: #c08b95;
+  color: #f2a8b0;
   font-size: 1.7rem;
   font-weight: bold;
   text-shadow:
-    0.1px 0.5px 0 #f8c8c8,
-    1px 1px 3px rgba(0, 0, 0, 0.1);
+    0.5px 0.5px 1px #fcdde1,
+    1px 1px 2px rgba(0, 0, 0, 0.05);
 }
 
 /* Parents Names */
@@ -367,48 +367,48 @@ h1, .main-title {
 
   background-image: linear-gradient(
     to right,
-    #eaa5af,  /* pastel rose */
-    #f4c7c9,  /* soft blush */
-    #ffe3e5,  /* pale pink */
-    #f7c4c7,  /* muted pink */
-    #e68b95   /* light rose */
+    #f8c8ce,  /* very light rose */
+    #fbd8dd,  /* pale blush */
+    #fff2f4,  /* ultra pale pink */
+    #fcdde1,  /* soft pastel */
+    #f8bfc8   /* soft rose highlight */
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
   text-shadow:
-    0.5px 0.5px 0 #d37a84, /* soft shadow */
-    1px 1px 3px rgba(0, 0, 0, 0.15);
+    0.5px 0.5px 1px #f4aeb7, /* very subtle shadow */
+    1px 1px 2px rgba(0, 0, 0, 0.05);
 }
 
 /* Body Paragraph */
 p {
-  color: #d77c8d; /* lighter rose-gold */
+  color: #f2a8b0; /* soft rose-gold */
   line-height: 1.7;
 }
 
 /* Bride & Groom Names */
 .name {
-  background: linear-gradient(135deg, #ffe0d1 0%, #f4b1b3 50%, #e6898f 100%);
+  background: linear-gradient(135deg, #fff0f3 0%, #f8c8ce 50%, #f2a8b0 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
-  text-shadow: 0.5px 0.5px 1px #d37a84;
+  text-shadow: 0.3px 0.3px 1px #f4b0b8;
 }
 
 /* Elegant Wedding Theme Colors */
 :root {
-  --gold: #eaa5af;       /* pastel rose-gold */
-  --champagne: #fff4e6;  /* light champagne */
-  --blush: #f4c7c9;      /* soft blush */
-  --lavender: #e8c8e8;   /* light lavender */
+  --gold: #f8c8ce;       /* very light rose-gold */
+  --champagne: #fffaf0;  /* light champagne */
+  --blush: #fbd8dd;      /* soft blush */
+  --lavender: #f2d6f2;   /* pastel lavender */
   --white: #FFFFFF;
 }
 
 /* Normal text */
 p, span, div {
-  color: #eaa5af;
-  text-shadow: 0.5px 0.5px 1px rgba(131, 52, 52, 0.15);
+  color: #f2a8b0;
+  text-shadow: 0.3px 0.3px 1px rgba(131, 52, 52, 0.05);
 }
 
 /* Buttons */
@@ -432,7 +432,7 @@ button:hover {
 }
 
 button:hover a div {
-  -webkit-text-fill-color: white;
+  -webkit-text-fill-color: #fff; /* white on hover for contrast */
 }
 
 /* Home */
@@ -443,15 +443,15 @@ button:hover a div {
   font-weight: bold;
   background-image: linear-gradient(
     to right,
-    #eaa5af,
-    #f4c7c9,
-    #ffe3e5,
-    #f7c4c7,
-    #e68b95
+    #f8c8ce,
+    #fbd8dd,
+    #fff2f4,
+    #fcdde1,
+    #f8bfc8
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 0.5px 0.5px 1px #d37a84, 1px 1px 3px rgba(0, 0, 0, 0.15);
+  text-shadow: 0.3px 0.3px 1px #f4aeb7, 0.5px 0.5px 2px rgba(0, 0, 0, 0.05);
 }
 
 .rose-gold-date {
@@ -461,15 +461,15 @@ button:hover a div {
   font-weight: bold;
   background-image: linear-gradient(
     to right,
-    #eaa5af,
-    #f4c7c9,
-    #ffe3e5,
-    #f7c4c7,
-    #e68b95
+    #f8c8ce,
+    #fbd8dd,
+    #fff2f4,
+    #fcdde1,
+    #f8bfc8
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 0.5px 0.5px 1px #d37a84, 1px 1px 3px rgba(0, 0, 0, 0.15);
+  text-shadow: 0.3px 0.3px 1px #f4aeb7, 0.5px 0.5px 2px rgba(0, 0, 0, 0.05);
 }
 
 </style>
