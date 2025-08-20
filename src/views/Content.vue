@@ -385,7 +385,7 @@ p {
 /* Normal text */
 p, span, div {
   color: #F5E6CC; /* Champagne */
-  font-size: 15px;
+  font-size: 13px;
   text-shadow: 
   1px 1px 2px rgba(0,0,0,0.5); /* keep only elegant dark shadow */
 }
