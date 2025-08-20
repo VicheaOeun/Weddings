@@ -65,7 +65,7 @@
         <div class="text-yellow-600 text-2xl md:text-3xl font-khmer-kh mt-10">
           ដែលនឹងប្រព្រឹត្តទៅ
         </div>
-        <div class="text-3xl md:text-5xl mt-4 md:mt-10 font-khmer date">
+        <div class="text-3xl md:text-5xl mt-4 md:mt-10 font-khmer main-title">
           ថ្ងៃចន្ទ ទី០៣ ខែវិច្ឆិកា ឆ្នាំ២០២៥
         </div>
         <button
@@ -143,7 +143,7 @@
       </section>
       <section class="mt-40">
         <h2
-          class="text-4xl md:text-6xl mt-20 font-khmer text-yellow-600 mb-5 md:mb-20"
+          class="text-4xl md:text-6xl mt-20 font-khmer text-yellow-600 mb-5 md:mb-20 main-title"
         >
           វិចិត្រសាល
         </h2>
@@ -182,7 +182,7 @@
       </section>
       <section class="mt-40">
         <h2
-          class="text-4xl md:text-6xl mt-20 font-khmer text-yellow-600 mb-5 md:mb-20"
+          class="text-4xl md:text-6xl mt-20 font-khmer text-yellow-600 mb-5 md:mb-20 main-title"
         >
           កម្មវិធីមង្គលអាពាហ៍ពិពាហ៍
         </h2>
@@ -344,14 +344,17 @@ body {
 
 /* Main Title (សិរីមង្គលអាពាហ៍ពិពាហ៍) */
 h1, .main-title {
-  color: #A05252; /* deep rose gold */
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  color: #81666d; /* deep rose gold */
   font-weight: bold;
+
+  text-shadow:
+    1px 1px 0 #7f3b4b,              /* dark rose edge */
+    2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 /* Parents Names */
 .parents {
-  color: #C08081; /* lighter rose-gold */
+  color: #a25355; /* lighter rose-gold */
   font-weight: 500;
 }
 
@@ -368,13 +371,6 @@ p {
   -webkit-text-fill-color: transparent;
   font-weight: bold;
   text-shadow: 1px 1px 2px #8B3A3A;
-}
-
-/* Highlight Date */
-.date {
-  color: #8B3A3A; /* strong deep rose-gold */
-  font-weight: bold;
-  font-size: 25px;
 }
 
 /* Elegant Wedding Theme Colors */
@@ -417,30 +413,7 @@ button:hover a div {
   -webkit-text-fill-color: white;
 }
 
-.fancy-text {
-  display: inline-block;
-  font-family: 'Khmer OS Muol Light', 'Koulen', sans-serif;
-  font-size: 1.8rem;
-  font-weight: bold;
-
-  /* Gradient text fill */
-  background-image: linear-gradient(to right,
-    #c89d2c,    /* gold brown */
-    #dbb875,    /* soft gold */
-    #ffffff,    /* white center */
-    #e4b2a0,    /* soft pink */
-    #b37979     /* rose */
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
-  /* 3D shadow effect */
-  text-shadow:
-    1px 1px 0 #00000044,
-    2px 2px 4px rgba(0, 0, 0, 0.4);
-}
-
-
+/*Home*/
 
 .rose-gold-text {
   display: inline-block;
@@ -493,4 +466,5 @@ button:hover a div {
     1px 1px 0 #7f3b4b,              /* dark rose edge */
     2px 2px 4px rgba(0, 0, 0, 0.3); /* soft outer glow */
 }
+/*Home*/
 </style>
