@@ -44,7 +44,7 @@
           ជ័យមង្គល ក្នុងពិធីរៀបអាពាហ៍ពិពាហ៍ កូនប្រុស-កូនស្រី របស់យើងខ្ញុំ
         </div>
         <div
-          class="flex justify-between items-center mt-10 font-khmer md:w-1/2 mx-auto"
+          class="flex justify-between items-center mt-10 font-khmer md:w-1/1 mx-auto"
         >
           <div>
             <div class="text-yellow-600 text-2xl md:text-3xl font-khmer-kh main-title">
@@ -52,7 +52,7 @@
             </div>
             <div class="text-2xl md:text-5xl mt-4 md:mt-10 name">អឿន វិជ្ជា</div>
           </div>
-          <div class="w-50 h-50 font-bold mt-10">
+          <div class="w-40 h-40 mt-10">
             <img src="/src/assets/love1.png" alt="" />
           </div>
           <div>
@@ -348,14 +348,14 @@ h1, .main-title {
   font-weight: bold;
 
   text-shadow:
-    1px 1px 0 #7f3b4b,              /* dark rose edge */
+    1px 1px 0 #242323,              /* dark rose edge */
     2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 /* Parents Names */
 .parents {
-  color: #a25355; /* lighter rose-gold */
-  font-weight: 500;
+  color: #7a3f41; /* lighter rose-gold */
+  font-weight: 700;
 }
 
 /* Body Paragraph (សូមកោតអញ្ជើញ...) */
