@@ -44,7 +44,7 @@
           ជ័យមង្គល ក្នុងពិធីរៀបអាពាហ៍ពិពាហ៍ កូនប្រុស-កូនស្រី របស់យើងខ្ញុំ
         </div>
         <div
-          class="flex justify-between items-center mt-10 font-khmer md:w-1/1 mx-auto"
+          class="flex items-center mt-10 font-khmer md:w-1/1 mx-auto"
         >
           <div>
             <div class="text-yellow-600 text-2xl md:text-3xl font-khmer-kh main-title">
@@ -354,7 +354,7 @@ h1, .main-title {
 
 /* Parents Names */
 .parents {
-  color: #7a3f41; /* lighter rose-gold */
+  color: #af4144; /* lighter rose-gold */
   font-weight: 700;
 }
 
@@ -384,8 +384,7 @@ p {
 
 /* Normal text */
 p, span, div {
-  color: #F5E6CC; /* Champagne */
-  font-size: 13px;
+  color: #f5e5f2; /* Champagne */
   text-shadow: 
   1px 1px 2px rgba(0,0,0,0.5); /* keep only elegant dark shadow */
 }
