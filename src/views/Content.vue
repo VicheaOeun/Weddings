@@ -213,7 +213,7 @@
           <!-- Display Information -->
           <div class="mt-5">
             <p v-if="selectedDay === 'day02'">
-              <h2 class="text-3xl md:text-4xl mt-20 font-khmer text-yellow-500">
+              <h2 class="text-3xl md:text-4xl mt-20 font-khmer text-yellow-500 text-yellow-3d3">
                កម្មវិធីពេលរសៀល
               </h2>
               <div class="mt-5">
