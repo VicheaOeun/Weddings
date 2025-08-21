@@ -115,13 +115,13 @@ onMounted(() => {
 
 @font-face {
   font-family: 'Khmer OS Muol Pali';
-  src: url('/src/fonts/KhmerOSMuolPali.ttf') format('truetype');
+  src: url('/public/fonts/KhmerOSMuolPali.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Khmer OS Muol';
-  src: url('src/fonts/KhmerOSMuol.ttf') format('truetype');
+  src: url('/public/fonts/KhmerOSMuol.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
