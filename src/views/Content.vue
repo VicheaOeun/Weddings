@@ -18,11 +18,11 @@
       class="relative z-10 flex flex-col items-center justify-start text-white text-center px-6 pt-10 pb-20 overflow-y-scroll h-screen"
     >
       <section class>
-        <h2 class="text-4xl md:text-6xl mt-20 font-khmer text-yellow-600 main-title">
+        <h2 class="text-4xl md:text-6xl mt-20 font-khmer text-yellow-600 main-yellow-3d">
           សិរីមង្គលអាពាហ៍ពិពាហ៍
         </h2>
         <div
-          class="flex justify-between items-center mt-20 font-khmer text-yellow-700 text-xl md:text-3xl md:w-1/2 mx-auto"
+          class="flex justify-between items-center mt-20 md:mt-40 font-khmer text-yellow-700 text-xl mx-auto"
         >
           <div class="text-center">
             <div class="parents">លោក ឆន អឿន</div>
@@ -37,33 +37,33 @@
           class="flex justify-between items-center mt-10 font-khmer md:w-full mx-auto"
         >
           <div class="text-center">
-            <div class="text-yellow-600 text-2xl md:text-3xl font-khmer-kh main-title">
+            <div class="text-yellow-600 text-2xl md:text-3xl font-khmer-kh main-yellow-3d1">
               កូនប្រុសនាម
             </div>
-            <div class="text-2xl md:text-5xl mt-4 md:mt-10 rose-gold-text">អឿន វិជ្ជា</div>
+            <div class="text-2xl md:text-5xl mt-4 md:mt-10 childs">អឿន វិជ្ជា</div>
           </div>
           <div class="text-center">
-            <div class="text-yellow-600 text-2xl md:text-3xl font-khmer-kh main-title">
+            <div class="text-yellow-600 text-2xl md:text-3xl font-khmer-kh main-yellow-3d1">
               កូនស្រីនាម
             </div>
-            <div class="text-2xl md:text-5xl mt-4 md:mt-10 rose-gold-text">យៀង ស្រីនិច្ច</div>
+            <div class="text-2xl md:text-5xl mt-4 md:mt-10 childs">យៀង ស្រីនិច្ច</div>
           </div>
         </div>
-        <div class="text-yellow-600 text-2xl md:text-3xl font-khmer-kh mt-30 main-title">
+        <div class="text-yellow-600 text-2xl md:text-3xl font-khmer-kh mt-30 main-yellow-3d1">
               សូមគោរពអញ្ជើញ
         </div>
         <div  
-          class="text-yellow-500 text-xl md:text-3xl font-khmer-kh mt-10 md:w-1/2 text-center mx-auto"
+          class="text-yellow-500 text-xl md:text-3xl font-khmer-kh mt-10 md:w-1/2 text-center mx-auto text-yellow-3d"
         >
           សម្ដេច ទ្រង់ ឯកឧត្តម អ្នកឧកញ៉ា ឧកញ៉ា លោកជំទាវ លោក លោកស្រី អ្នកនាងកញ្ញា
           អញ្ជើញចូលរួមជាអធិបតី និងជាភ្ញៀវកិត្តិយស ដើម្បីប្រសិទ្ធពរជ័យ សិរីសួស្ដី
           ជ័យមង្គល ក្នុងពិធីរៀបអាពាហ៍ពិពាហ៍ កូនប្រុស-កូនស្រី របស់យើងខ្ញុំ
         </div>
 
-        <div class="text-yellow-600 text-2xl md:text-3xl font-khmer-kh mt-20">
+        <div class="text-yellow-600 text-2xl md:text-3xl font-khmer-kh mt-20 main-yellow-3d1">
           ដែលនឹងប្រព្រឹត្តទៅ
         </div>
-        <div class="text-3xl md:text-5xl mt-4 md:mt-20 font-khmer main-title2">
+        <div class="md:text-5xl mt-4 md:mt-20 text-yellow-3d3">
           ថ្ងៃចន្ទ ទី០៣ ខែវិច្ឆិកា ឆ្នាំ២០២៥
         </div>
         <button
@@ -97,7 +97,7 @@
             </g>
           </svg>
         </button>
-        <div class="text-yellow-600 text-xl md:text-3xl font-khmer-kh mt-10">
+        <div class="text-yellow-600 text-xl md:text-3xl font-khmer-kh mt-10 text-yellow-3d3">
         ទីតាំង ភូមិសំណង សង្កាតរកាធំ ក្រុងច្បារមន ខេត្តកំពង់ស្ពឺ
         </div>
         <button
@@ -335,31 +335,51 @@ const selectedDay = ref("day02"); // Default selected day
 
 /* General Background */
 body {
-  background: linear-gradient(to bottom, #fffafc, #fff0f3); /* very light pink */
-  color: #f2a8b0; /* soft rose-gold text */
+  background: linear-gradient(to bottom, #fff6f7, #fbe9eb);
+  color: #B76E79; /* default rose-gold text */
   font-family: 'Khmer OS Battambang', sans-serif;
 }
 
-/* Main Title */
+/* Main Title (សិរីមង្គលអាពាហ៍ពិពាហ៍) */
 h1, .main-title {
-  color: #f2a8b0; /* soft rose gold */
+  color: #81666d; /* deep rose gold */
   font-weight: bold;
   text-shadow:
-    0.5px 0.5px 1px #fcdde1, /* very subtle highlight */
-    1px 1px 2px rgba(0, 0, 0, 0.05); /* tiny soft shadow */
+    0.1px 0.5px 0 #f3a9a9,    /* dark rose edge */
+    2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .main-title2 {
-  color: #f2a8b0;
+  color: #81666d; /* deep rose gold */
   font-size: 1.7rem;
   font-weight: bold;
   text-shadow:
-    0.5px 0.5px 1px #fcdde1,
-    1px 1px 2px rgba(0, 0, 0, 0.05);
+    0.1px 0.5px 0 #f3a9a9,    /* dark rose edge */
+    2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 /* Parents Names */
 .parents {
+  display: inline-block;
+  font-family: 'Khmer OS Muol Light', 'Koulen', sans-serif;
+  font-size: 0.9rem;
+  font-weight: bold;
+
+  background-image: linear-gradient(
+    to right,
+    #000000,
+    #000000,
+    #000000
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  text-shadow:
+    1px 1px 0 #cdcbcb,
+    2px 2px 6px rgba(23, 22, 22, 0.8);
+}
+
+.childs {
   display: inline-block;
   font-family: 'Khmer OS Muol Light', 'Koulen', sans-serif;
   font-size: 1.2rem;
@@ -367,48 +387,37 @@ h1, .main-title {
 
   background-image: linear-gradient(
     to right,
-    #f8c8ce,  /* very light rose */
-    #fbd8dd,  /* pale blush */
-    #fff2f4,  /* ultra pale pink */
-    #fcdde1,  /* soft pastel */
-    #f8bfc8   /* soft rose highlight */
+    #000000,
+    #000000,
+    #000000
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
   text-shadow:
-    0.5px 0.5px 1px #f4aeb7, /* very subtle shadow */
-    1px 1px 2px rgba(0, 0, 0, 0.05);
+    1px 1px 0 #cdcbcb,
+    2px 2px 6px rgba(23, 22, 22, 0.8);
 }
 
-/* Body Paragraph */
 p {
-  color: #f2a8b0; /* soft rose-gold */
+  color: #B76E79; /* medium rose-gold */
   line-height: 1.7;
-}
-
-/* Bride & Groom Names */
-.name {
-  background: linear-gradient(135deg, #fff0f3 0%, #f8c8ce 50%, #f2a8b0 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: bold;
-  text-shadow: 0.3px 0.3px 1px #f4b0b8;
 }
 
 /* Elegant Wedding Theme Colors */
 :root {
-  --gold: #f8c8ce;       /* very light rose-gold */
-  --champagne: #fffaf0;  /* light champagne */
-  --blush: #fbd8dd;      /* soft blush */
-  --lavender: #f2d6f2;   /* pastel lavender */
+  --gold: #b76e79;
+  --champagne: #F5E6CC;
+  --blush: #E6A4B4;
+  --lavender: #C8A2C8;
   --white: #FFFFFF;
 }
 
 /* Normal text */
-p, span, div {
-  color: #f2a8b0;
-  text-shadow: 0.3px 0.3px 1px rgba(131, 52, 52, 0.05);
+span {
+  color: #b76e79; /* Champagne */
+  text-shadow: 
+  1px 1px 2px rgba(255, 255, 255, 0.5); /* keep only elegant dark shadow */
 }
 
 /* Buttons */
@@ -432,26 +441,158 @@ button:hover {
 }
 
 button:hover a div {
-  -webkit-text-fill-color: #fff; /* white on hover for contrast */
+  -webkit-text-fill-color: white;
 }
 
-/* Home */
+/* Main 3d.............................................................................................. */
+@font-face {
+  font-family: 'Khmer OS Muol Pali';
+  src: url('/fonts/KhmerOSMuolPali.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.main-yellow-3d {
+  display: inline-block;
+  font-family: 'Khmer OS Muol Light', 'Koulen', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+
+  background-image: linear-gradient(
+    to right,
+    #373735,
+    #fff176,
+    #ffd54f,
+    #ffb74d
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  text-shadow:
+    1px 1px 0 #bfa000,
+    2px 2px 4px #252523;
+}
+
+.main-yellow-3d1 {
+ color: #a28e4b; 
+ font-size: 0.8rem;
+ font-weight: bold;
+ font-family: 'Khmer OS Muol Pali';
+ text-shadow:
+    1px 1px 0 #000000,  
+    2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.main-yellow-3d2 {
+ color: #a28e4b; 
+ font-size: 0.9rem;
+ font-weight: bold;
+ text-shadow:
+    1px 1px 0 #000000,   
+    2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Text 3d.............................................................................................. */
+.text-yellow-3d {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: bold;
+
+  background-image: linear-gradient(
+    to right,
+    #000000,
+    #000000,
+    #000000
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  text-shadow:
+    1px 1px 0 #bd971b,
+    2px 2px 6px rgba(13, 12, 12, 0.8);
+}
+
+.text-yellow-3d1 {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: bold;
+
+  background-image: linear-gradient(
+    to right,
+    #000000,
+    #000000,
+    #000000
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  text-shadow:
+    1px 1px 0 #bd971b,
+    2px 2px 6px rgba(13, 12, 12, 0.8);
+}
+
+.text-yellow-3d2 {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: bold;
+
+  background-image: linear-gradient(
+    to right,
+    #000000,
+    #000000,
+    #000000
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  text-shadow:
+    1px 1px 0 #bd971b,
+    2px 2px 6px rgba(13, 12, 12, 0.8);
+}
+
+.text-yellow-3d3 {
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: bold;
+
+  background-image: linear-gradient(
+    to right,
+    #000000,
+    #000000,
+    #000000
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  text-shadow:
+    1px 1px 0 #bd971b,
+    2px 2px 6px rgba(13, 12, 12, 0.8);
+}
+
+/*Home*/
+
 .rose-gold-text {
   display: inline-block;
   font-family: 'Khmer OS Muol Light', 'Koulen', sans-serif;
   font-size: 1.8rem;
   font-weight: bold;
+
+  /* Gradient rose-gold + pink */
   background-image: linear-gradient(
     to right,
-    #f8c8ce,
-    #fbd8dd,
-    #fff2f4,
-    #fcdde1,
-    #f8bfc8
+    #b76e79,   /* rose */
+    #d7a3a3,   /* soft blush */
+    #f3d1d1,   /* pale pink highlight */
+    #d49fa3,   /* muted pink */
+    #a45a6e    /* deep rose */
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 0.3px 0.3px 1px #f4aeb7, 0.5px 0.5px 2px rgba(0, 0, 0, 0.05);
+
+  /* 3D Shadow */
+  text-shadow:
+    1px 1px 0 #7f3b4b,              /* dark rose edge */
+    2px 2px 4px rgba(255, 255, 255, 0.3); /* soft outer glow */
 }
 
 .rose-gold-date {
@@ -459,17 +600,23 @@ button:hover a div {
   font-family: 'Khmer OS Muol Light', 'Koulen', sans-serif;
   font-size: 1.4rem;
   font-weight: bold;
+
+  /* Gradient rose-gold + pink */
   background-image: linear-gradient(
     to right,
-    #f8c8ce,
-    #fbd8dd,
-    #fff2f4,
-    #fcdde1,
-    #f8bfc8
+    #b76e79,   /* rose */
+    #d7a3a3,   /* soft blush */
+    #f3d1d1,   /* pale pink highlight */
+    #d49fa3,   /* muted pink */
+    #a45a6e    /* deep rose */
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 0.3px 0.3px 1px #f4aeb7, 0.5px 0.5px 2px rgba(0, 0, 0, 0.05);
-}
 
+  /* 3D Shadow */
+  text-shadow:
+    1px 1px 0 #7f3b4b,              /* dark rose edge */
+    2px 2px 4px rgba(255, 255, 255, 0.3); /* soft outer glow */
+}
+/*Home*/
 </style>
