@@ -113,19 +113,6 @@ onMounted(() => {
   }
 }
 
-@font-face {
-  font-family: 'Khmer OS Muol Pali';
-  src: url('/fonts/KhmerOSMuolPali.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Khmer OS Muol';
-  src: url('/fonts/KhmerOSMuol.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
 .animate-pulse {
   animation: pulse 2s infinite;
 }
