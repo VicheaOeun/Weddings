@@ -53,7 +53,7 @@
               សូមគោរពអញ្ជើញ
         </div>
         <div  
-          class="text-yellow-500 text-xl md:text-3xl font-khmer-kh mt-10 md:w-1/2 text-center mx-auto text-yellow-3d"
+          class="text-yellow-500 text-xl md:text-3xl font-khmer-kh mt-10 md:w-1/2 text-center mx-auto text-yellow-3d leading-relaxed tracking-wide px-4"
         >
           សម្ដេច ទ្រង់ ឯកឧត្តម អ្នកឧកញ៉ា ឧកញ៉ា លោកជំទាវ លោក លោកស្រី អ្នកនាងកញ្ញា
           អញ្ជើញចូលរួមជាអធិបតី និងជាភ្ញៀវកិត្តិយស ដើម្បីប្រសិទ្ធពរជ័យ សិរីសួស្ដី
@@ -141,7 +141,7 @@
       </section>
       <section class="mt-40">
         <h2
-          class="text-4xl md:text-6xl mt-20 font-khmer text-yellow-600 mb-5 md:mb-20 main-title"
+          class="text-4xl md:text-6xl mt-20 font-khmer text-yellow-600 mb-5 md:mb-20 main-yellow-3d3"
         >
           វិចិត្រសាល
         </h2>
@@ -180,7 +180,7 @@
       </section>
       <section class="mt-40">
         <h2
-          class="text-4xl md:text-6xl mt-20 font-khmer text-yellow-600 mb-5 md:mb-20 main-title2"
+          class="text-4xl md:text-6xl mt-20 font-khmer text-yellow-600 mb-5 md:mb-20 main-yellow-3d3"
         >
           កម្មវិធីមង្គលអាពាហ៍ពិពាហ៍
         </h2>
@@ -361,93 +361,8 @@ h1, .main-title {
 /* Parents Names */
 .parents {
   display: inline-block;
-  font-family: 'Khmer OS Muol Light', 'Koulen', sans-serif;
+  font-family: 'Khmer OS Muol', 'Koulen', sans-serif;
   font-size: 0.9rem;
-  font-weight: bold;
-
-  background-image: linear-gradient(
-    to right,
-    #000000,
-    #000000,
-    #000000
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
-  text-shadow:
-    1px 1px 0 #cdcbcb,
-    2px 2px 6px rgba(23, 22, 22, 0.8);
-}
-
-.childs {
-  display: inline-block;
-  font-family: 'Khmer OS Muol Pali', 'Koulen', sans-serif;
-  font-size: 1.2rem;
-  font-weight: bold;
-  background-image: linear-gradient(
-    to right,
-    #000000,
-    #000000,
-    #000000
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
-  text-shadow:
-    1px 1px 0 #cdcbcb,
-    2px 2px 6px rgba(23, 22, 22, 0.8);
-}
-
-p {
-  color: #B76E79; /* medium rose-gold */
-  line-height: 1.7;
-}
-
-/* Elegant Wedding Theme Colors */
-:root {
-  --gold: #b76e79;
-  --champagne: #F5E6CC;
-  --blush: #E6A4B4;
-  --lavender: #C8A2C8;
-  --white: #FFFFFF;
-}
-
-/* Normal text */
-span {
-  color: #b76e79; /* Champagne */
-  text-shadow: 
-  1px 1px 2px rgba(255, 255, 255, 0.5); /* keep only elegant dark shadow */
-}
-
-/* Buttons */
-button a div {
-  background: linear-gradient(135deg, var(--gold), var(--blush));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: bold;
-}
-
-button {
-  border: 2px solid var(--gold);
-  padding: 10px 20px;
-  border-radius: 9999px;
-  transition: all 0.3s ease;
-}
-
-button:hover {
-  background: linear-gradient(135deg, var(--gold), var(--blush));
-  border-color: transparent;
-}
-
-button:hover a div {
-  -webkit-text-fill-color: white;
-}
-
-/* Main 3d.............................................................................................. */
-.main-yellow-3d {
-  display: inline-block;
-  font-family: 'Khmer OS Muol Light', 'Koulen', sans-serif;
-  font-size: 1.5rem;
   font-weight: bold;
 
   background-image: linear-gradient(
@@ -465,13 +380,110 @@ button:hover a div {
     2px 2px 4px #252523;
 }
 
+.childs {
+  display: inline-block;
+  font-family: 'Khmer OS Muol Pali', 'Koulen', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-image: linear-gradient(
+    to right,
+    #373735,
+    #fff176,
+    #ffd54f,
+    #ffb74d
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  text-shadow:
+    1px 1px 0 #bfa000,
+    2px 2px 4px #252523;
+}
+
+p {
+  color: #B76E79; /* medium rose-gold */
+  line-height: 1.7;
+}
+
+span {
+  color: #b76e79; /* Champagne */
+  text-shadow: 
+  1px 1px 2px rgba(255, 255, 255, 0.5); /* keep only elegant dark shadow */
+}
+
+/* Elegant Wedding Theme Colors */
+:root {
+  --gold: #dcce0c;
+  --champagne: #bcb23d;
+  --blush: #f0c8d2;
+  --lavender: #C8A2C8;
+  --white: #FFFFFF;
+}
+
+/* Buttons............................................................................................. */
+button a div {
+  background: linear-gradient(135deg, var(--gold), var(--blush));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+button {
+  border: 2px solid var(--gold);
+  padding: 5px 10px;
+  border-radius: 9999px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(135deg, var(--gold), var(--blush));
+  border-color: transparent;
+}
+
+button:hover a div {
+  -webkit-text-fill-color: white;
+}
+
+/* Main 3d.............................................................................................. */
+.main-yellow-3d {
+  display: inline-block;
+  font-family: 'Khmer OS Muol', 'Koulen', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+
+  background-image: linear-gradient(
+    to right,
+    #eaeade,
+    #e9e8e2,
+    #f4f2ed,
+    #efe8de
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  text-shadow:
+    1px 1px 0 #bfa000,
+    2px 2px 4px #c6c66c;
+}
+
 .main-yellow-3d1 {
  color: #a28e4b; 
  font-size: 0.8rem;
  font-weight: bold;
- text-shadow:
-    1px 1px 0 #000000,  
-    2px 2px 4px rgba(0, 0, 0, 0.2);
+
+ background-image: linear-gradient(
+    to right,
+    #000000,
+    #000000,
+    #000000
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  text-shadow:
+    1px 1px 0 #cdcbcb,
+    2px 2px 6px rgba(23, 22, 22, 0.8);
 }
 
 .main-yellow-3d2 {
@@ -481,6 +493,27 @@ button:hover a div {
  text-shadow:
     1px 1px 0 #000000,   
     2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.main-yellow-3d3 {
+  display: inline-block;
+  font-family: 'Khmer OS Muol', 'Koulen', sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+
+  background-image: linear-gradient(
+    to right,
+    #eaeade,
+    #e9e8e2,
+    #f4f2ed,
+    #efe8de
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  text-shadow:
+    1px 1px 0 #bfa000,
+    2px 2px 4px #474444;
 }
 
 /* Text 3d.............................................................................................. */
@@ -565,7 +598,7 @@ button:hover a div {
 .rose-gold-text {
   display: inline-block;
   font-family: 'Khmer OS Muol Light', 'Koulen', sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: bold;
 
   /* Gradient rose-gold + pink */
@@ -573,7 +606,7 @@ button:hover a div {
     to right,
     #b76e79,   /* rose */
     #d7a3a3,   /* soft blush */
-    #f3d1d1,   /* pale pink highlight */
+    #e68c8c,   /* pale pink highlight */
     #d49fa3,   /* muted pink */
     #a45a6e    /* deep rose */
   );
@@ -589,7 +622,7 @@ button:hover a div {
 .rose-gold-date {
   display: inline-block;
   font-family: 'Khmer OS Muol Light', 'Koulen', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: bold;
 
   /* Gradient rose-gold + pink */
@@ -597,7 +630,7 @@ button:hover a div {
     to right,
     #b76e79,   /* rose */
     #d7a3a3,   /* soft blush */
-    #f3d1d1,   /* pale pink highlight */
+    #e79797,   /* pale pink highlight */
     #d49fa3,   /* muted pink */
     #a45a6e    /* deep rose */
   );
@@ -607,7 +640,7 @@ button:hover a div {
   /* 3D Shadow */
   text-shadow:
     1px 1px 0 #7f3b4b,              /* dark rose edge */
-    2px 2px 4px rgba(255, 255, 255, 0.3); /* soft outer glow */
+    2px 2px 4px rgba(244, 181, 181, 0.3); /* soft outer glow */
 }
 /*Home*/
 </style>
