@@ -102,15 +102,6 @@ onMounted(() => {
 @import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@300;400;500;600;700&display=swap");
 
-.font-khmer-kh {
-  font-family: "Kantumruy Pro", sans-serif;
-  font-weight: 500;
-}
-
-.font-khmer {
-  font-family: "Koulen", sans-serif;
-}
-
 @keyframes pulse {
   0%, 100% {
     transform: scale(1);

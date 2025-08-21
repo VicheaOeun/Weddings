@@ -381,10 +381,9 @@ h1, .main-title {
 
 .childs {
   display: inline-block;
-  font-family: 'Khmer OS Muol Light', 'Koulen', sans-serif;
+  font-family: 'Khmer OS Muol Pali', 'Koulen', sans-serif;
   font-size: 1.2rem;
   font-weight: bold;
-
   background-image: linear-gradient(
     to right,
     #000000,
@@ -445,13 +444,6 @@ button:hover a div {
 }
 
 /* Main 3d.............................................................................................. */
-@font-face {
-  font-family: 'Khmer OS Muol Pali';
-  src: url('/fonts/KhmerOSMuolPali.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
 .main-yellow-3d {
   display: inline-block;
   font-family: 'Khmer OS Muol Light', 'Koulen', sans-serif;
@@ -477,7 +469,6 @@ button:hover a div {
  color: #a28e4b; 
  font-size: 0.8rem;
  font-weight: bold;
- font-family: 'Khmer OS Muol Pali';
  text-shadow:
     1px 1px 0 #000000,  
     2px 2px 4px rgba(0, 0, 0, 0.2);
