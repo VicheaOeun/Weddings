@@ -115,13 +115,13 @@ onMounted(() => {
 
 @font-face {
   font-family: 'Khmer OS Muol Pali';
-  src: url('/public/fonts/KhmerOSMuolPali.ttf') format('truetype');
+  src: url('/fonts/KhmerOSMuolPali.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Khmer OS Muol';
-  src: url('/public/fonts/KhmerOSMuol.ttf') format('truetype');
+  src: url('/fonts/KhmerOSMuol.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -130,17 +130,3 @@ onMounted(() => {
   animation: pulse 2s infinite;
 }
 </style>
-
-<script>
-// tailwind.config.js
-module.exports = {
-  theme: {
-    extend: {
-      fontFamily: {
-        'khmer-muol': ['"Khmer OS Muol"', 'sans-serif'],
-        'khmer-pali': ['"Khmer OS Muol Pali"', 'sans-serif'],
-      },
-    },
-  },
-}
-</script>

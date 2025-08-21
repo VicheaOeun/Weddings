@@ -8,3 +8,15 @@ export default defineConfig({
     tailwindcss(),
   ],
 })
+
+// tailwind.config.js
+module.exports = {
+  theme: {
+    extend: {
+      fontFamily: {
+        'khmer-muol': ['"Khmer OS Muol"', 'sans-serif'],
+        'khmer-pali': ['"Khmer OS Muol Pali"', 'sans-serif'],
+      },
+    },
+  },
+}
