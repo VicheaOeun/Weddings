@@ -1,25 +1,34 @@
+/*
 @font-face {
   font-family: 'Khmer OS Muol Pali';
-  src: url('/public/fonts/KhmerOSMuolPali.ttf') format('truetype');
+  src: url('../public/fonts/KhmerOSMuolPali.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Khmer OS Muol';
-  src: url('/public/fonts/KhmerOSMuol.ttf') format('truetype');
+  src: url('../public/fonts/KhmerOSMuol.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
-/*
-@import url('https://fonts.google.com/specimen/Moulpali');
-@import url('https://fonts.google.com/specimen/Moul');
-
-@import url('https://fonts.googleapis.com/css2?family=Moul&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Moulpali&display=swap');
 */
 
-@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Moul&family=Moulpali&display=swap');
 
+.moulpali-font {
+  font-family: "Moulpali", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.moul-font {
+  font-family: "Moul", serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@import "tailwindcss";
 
 
 @import url("https://fonts.googleapis.com/css2?family=Koulen&family=Lavishly+Yours&display=swap");
@@ -33,28 +42,28 @@ body {
   font-family: 'Khmer OS Battambang', sans-serif;
 }
 
-/* Main Title (សិរីមង្គលអាពាហ៍ពិពាហ៍) */
+/* Main Title () */
 h1, .main-title {
-  color: #81666d; /* deep rose gold */
+  color: #81666d; 
   font-weight: bold;
   text-shadow:
-    0.1px 0.5px 0 #f3a9a9,    /* dark rose edge */
+    0.1px 0.5px 0 #f3a9a9,  
     2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .main-title2 {
-  color: #81666d; /* deep rose gold */
+  color: #81666d; 
   font-size: 1.7rem;
   font-weight: bold;
   text-shadow:
-    0.1px 0.5px 0 #f3a9a9,    /* dark rose edge */
+    0.1px 0.5px 0 #f3a9a9,  
     2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 /* Parents Names */
 .parents {
   display: inline-block;
-  font-family: 'Khmer OS Muol', 'Koulen', sans-serif;
+  font-family: 'Moul', 'Koulen', sans-serif;
   font-size: 0.9rem;
   font-weight: bold;
 
@@ -75,7 +84,7 @@ h1, .main-title {
 
 .childs {
   display: inline-block;
-  font-family: 'Khmer OS Muol Pali', 'Koulen', sans-serif;
+  font-family: 'Moulpali', 'Koulen', sans-serif;
   font-size: 1.2rem;
   font-weight: bold;
   background-image: linear-gradient(
@@ -94,12 +103,12 @@ h1, .main-title {
 }
 
 p {
-  color: #B76E79; /* medium rose-gold */
+  color: #B76E79; 
   line-height: 1.7;
 }
 
 span {
-  color: #b76e79; /* Champagne */
+  color: #b76e79; 
   text-shadow: 
   1px 1px 2px rgba(255, 255, 255, 0.5); /* keep only elegant dark shadow */
 }
@@ -141,7 +150,7 @@ button:hover a div {
 /* Main 3d.............................................................................................. */
 .main-yellow-3d {
   display: inline-block;
-  font-family: 'Khmer OS Muol', 'Koulen', sans-serif;
+  font-family: 'Moul', 'Koulen', sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
 
@@ -190,7 +199,7 @@ button:hover a div {
 
 .main-yellow-3d3 {
   display: inline-block;
-  font-family: 'Khmer OS Muol', 'Koulen', sans-serif;
+  font-family: 'Moul', 'Koulen', sans-serif;
   font-size: 1.3rem;
   font-weight: bold;
 
@@ -290,49 +299,49 @@ button:hover a div {
 
 .rose-gold-text {
   display: inline-block;
-  font-family: 'Khmer OS Muol Light', 'Koulen', sans-serif;
+  font-family: 'Moul Light', 'Koulen', sans-serif;
   font-size: 1.6rem;
   font-weight: bold;
 
   /* Gradient rose-gold + pink */
   background-image: linear-gradient(
     to right,
-    #b76e79,   /* rose */
-    #d7a3a3,   /* soft blush */
-    #e68c8c,   /* pale pink highlight */
-    #d49fa3,   /* muted pink */
-    #a45a6e    /* deep rose */
+    #b76e79,  
+    #d7a3a3,  
+    #e68c8c,   
+    #d49fa3,  
+    #a45a6e   
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
   /* 3D Shadow */
   text-shadow:
-    1px 1px 0 #7f3b4b,              /* dark rose edge */
-    2px 2px 4px rgba(255, 255, 255, 0.3); /* soft outer glow */
+    1px 1px 0 #7f3b4b,       
+    2px 2px 4px rgba(255, 255, 255, 0.3); 
 }
 
 .rose-gold-date {
   display: inline-block;
-  font-family: 'Khmer OS Muol Light', 'Koulen', sans-serif;
+  font-family: 'Moul Light', 'Koulen', sans-serif;
   font-size: 1.2rem;
   font-weight: bold;
 
   /* Gradient rose-gold + pink */
   background-image: linear-gradient(
     to right,
-    #b76e79,   /* rose */
-    #d7a3a3,   /* soft blush */
-    #e79797,   /* pale pink highlight */
-    #d49fa3,   /* muted pink */
-    #a45a6e    /* deep rose */
+    #b76e79,   
+    #d7a3a3,   
+    #e79797,  
+    #d49fa3,   
+    #a45a6e    
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
   /* 3D Shadow */
   text-shadow:
-    1px 1px 0 #7f3b4b,              /* dark rose edge */
-    2px 2px 4px rgba(244, 181, 181, 0.3); /* soft outer glow */
+    1px 1px 0 #7f3b4b,               
+    2px 2px 4px rgba(244, 181, 181, 0.3);  
 }
 /*Home*/
