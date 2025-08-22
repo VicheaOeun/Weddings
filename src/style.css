@@ -14,7 +14,18 @@
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Moul&family=Moulpali&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Koulen&family=Lavishly+Yours&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@300;400;700&display=swap");
+@import "tailwindcss";
 
+/* General Background */
+body {
+  background: linear-gradient(to bottom, #fff6f7, #fbe9eb);
+  color: #B76E79; /* default rose-gold text */
+  font-family: 'Khmer OS Battambang', sans-serif;
+}
+
+/*fonts*/
 .moulpali-font {
   font-family: "Moulpali", sans-serif;
   font-weight: normal;
@@ -25,21 +36,6 @@
   font-family: "Moul", serif;
   font-weight: normal;
   font-style: normal;
-}
-
-
-@import "tailwindcss";
-
-
-@import url("https://fonts.googleapis.com/css2?family=Koulen&family=Lavishly+Yours&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@300;400;700&display=swap");
-
-
-/* General Background */
-body {
-  background: linear-gradient(to bottom, #fff6f7, #fbe9eb);
-  color: #B76E79; /* default rose-gold text */
-  font-family: 'Khmer OS Battambang', sans-serif;
 }
 
 /* Main Title () */
@@ -293,6 +289,62 @@ button:hover a div {
   text-shadow:
     1px 1px 0 #bd971b,
     2px 2px 6px rgba(13, 12, 12, 0.8);
+}
+
+.text-yellow-3d4 {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: bold;
+
+  background-image: linear-gradient(
+    to right,
+    #000000,
+    #000000,
+    #000000
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  text-shadow:
+    1px 1px 0 #bd971b,
+    2px 2px 6px rgba(13, 12, 12, 0.8);
+}
+
+/*Line*/
+.div-yellow-3d4 {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 9999px;
+  margin: auto;
+
+  background: radial-gradient(circle at 30% 30%, 
+    #bdaf50,   /* highlight */
+    #d6b601 40%, 
+    #bd971b 70%, 
+    #000000 100%);
+
+  box-shadow:
+    inset -2px -2px 4px rgba(255, 255, 255, 0.4),  /* top-left light */
+    inset 2px 2px 4px rgba(0, 0, 0, 0.5),          /* bottom-right dark */
+    2px 2px 6px rgba(13, 12, 12, 0.6);             /* outer shadow */
+}
+
+.line-yellow-3d4 {
+  width: 0.25rem;
+  height: 3rem;
+  border-radius: 5px;
+  margin: auto;
+
+  background: linear-gradient(to bottom,
+    #f0df6d,
+    #cca31b,
+    #cea315,
+    #f0df6d);
+
+  box-shadow:
+    inset -1px -1px 2px rgba(255, 255, 255, 0.3),
+    inset 1px 1px 2px rgba(0, 0, 0, 0.4),
+    2px 2px 6px rgba(13, 12, 12, 0.6);
 }
 
 /*Home*/

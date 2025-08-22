@@ -187,131 +187,131 @@
         <div class="p-1">
           <!-- Category Selection -->
           <div
-          class="flex flex-col md:flex-row justify-center items-center text-center w-full max-w-[300px] bg-yellow-600 p-3 rounded-lg font-khmer text-md md:text-2xl text-yellow-700 mx-auto gap-3 md:gap-10"
+            class="mt-10 bg-black/30 p-5 rounded-xl backdrop-blur-sm border border-yellow-300/50"
           >
             <div
             @click="selectedDay = 'day02'"
             :class="[
             'cursor-pointer px-4 py-2 rounded-lg w-full md:w-60 flex items-center justify-center',
-            selectedDay === 'day02' ? 'text-black bg-white' : ''
+            selectedDay === 'day02' ? 'text-black bg-white childs' : ''
             ]"
             >
             ០២ វិច្ឆិកា
-          </div>
-          <div
-          @click="selectedDay = 'day03'"
-          :class="[
-          'cursor-pointer px-4 py-2 rounded-lg w-full md:w-60 flex items-center justify-center',
-          selectedDay === 'day03' ? 'text-black bg-white' : ''
-          ]"
-          >
-          ០៣ វិច្ឆិកា
-          </div>
+            </div>
+            <div
+            @click="selectedDay = 'day03'"
+            :class="[
+            'cursor-pointer px-4 py-2 rounded-lg w-full md:w-60 flex items-center justify-center',
+            selectedDay === 'day03' ? 'text-black bg-white childs' : ''
+            ]"
+            >
+            ០៣ វិច្ឆិកា
+            </div>
         </div>
 
 
           <!-- Display Information -->
           <div class="mt-5">
             <p v-if="selectedDay === 'day02'">
-              <h2 class="text-3xl md:text-4xl mt-20 font-khmer text-yellow-500 text-yellow-3d3">
+              <h2 class="text-3xl md:text-4xl mt-20 font-khmer text-yellow-500 text-yellow-3d4">
                កម្មវិធីពេលរសៀល
               </h2>
               <div class="mt-5">
-                <div class="border-4 border-yellow-500 w-12 h-12 rounded-full m-auto"></div>
-                <div class="border bg-yellow-500 border-yellow-500 w-1 h-12 m-auto"></div>
+                <div class="div-yellow-3d4"></div>
+                <div class="line-yellow-3d4"></div>
               </div>
-              <h2 class="text-2xl md:text-4xl font-khmer-kh text-white">
+              <h2 class="text-2xl md:text-4xl font-khmer-kh text-white main-yellow-3d1">
                ម៉ោង២:០០រសៀល
               </h2>
-              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-500">
+              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-500 text-yellow-3d3">
                ពិធីក្រុងពាលី
               </h2>
-              <div class="border bg-yellow-500 border-yellow-500 w-1 h-16 mt-2 m-auto"></div>
-              <h2 class="text-2xl md:text-4xl font-khmer-kh text-white">
+              <div class="line-yellow-3d4"></div>
+              <h2 class="text-2xl md:text-4xl font-khmer-kh text-white main-yellow-3d1">
                ម៉ោង៣:០០រសៀល
               </h2>
-              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-500">
+              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-500 text-yellow-3d3">
                ពិធីសូត្រមន្តចម្រើនព្រះបរិត្ត
               </h2>
-              <div class="border bg-yellow-500 border-yellow-500 w-1 h-16 mt-2 m-auto"></div>
-              <h2 class="text-2xl md:text-4xl font-khmer-kh text-white">
+              <div class="line-yellow-3d4"></div>
+              <h2 class="text-2xl md:text-4xl font-khmer-kh text-white main-yellow-3d1">
                ម៉ោង៥:០០រសៀល
               </h2>
-              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-500">
+              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-500 text-yellow-3d3">
                 ពិធីកាត់ខាន់ស្លា
               </h2>
-              <div class="border bg-yellow-500 border-yellow-500 w-1 h-16 mt-2 m-auto"></div>
-              <h2 class="text-2xl md:text-4xl font-khmer-kh text-white">
+              <div class="line-yellow-3d4"></div>
+              <h2 class="text-2xl md:text-4xl font-khmer-kh text-white main-yellow-3d1">
                 ម៉ោង៦:០០រសៀល
               </h2>
-              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-500">
+              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-500 text-yellow-3d4">
                អញ្ជើញភ្ញៀវកិត្តិយសពិសារភោជនាហារដោយមេត្រីភាព
               </h2>
             </p>
             <p v-if="selectedDay === 'day03'">
-              <h2 class="text-3xl md:text-4xl mt-20 font-khmer text-yellow-500">
+              <h2 class="text-3xl md:text-4xl mt-20 font-khmer text-yellow-500 text-yellow-3d4">
                កម្មវិធីពេលព្រឹក
               </h2>
               <div class="mt-5">
-                <div class="border-4 border-yellow-500 w-12 h-12 rounded-full m-auto"></div>
-                <div class="border bg-yellow-500 border-yellow-500 w-1 h-12 m-auto"></div>
+                <div class="div-yellow-3d4"></div>
+                <div class="line-yellow-3d4"></div>
               </div>
-              <h2 class="text-2xl md:text-4xl font-khmer-kh text-white">
+              <h2 class="text-2xl md:text-4xl font-khmer-kh text-white main-yellow-3d1">
                ម៉ោង៦:៣០ព្រឹក
               </h2>
-              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-500">
+              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-500 text-yellow-3d3">
                ជួបជុំភ្ញៀវកិត្តិយសទាំងអស់ដើម្បីរៀបហែជំនូន
               </h2>
-              <div class="border bg-yellow-500 border-yellow-500 w-1 h-16 mt-2 m-auto"></div>
-              <h2 class="text-2xl md:text-4xl font-khmer-kh text-white">
+              <div class="line-yellow-3d4"></div>
+              <h2 class="text-2xl md:text-4xl font-khmer-kh text-white main-yellow-3d1">
                ម៉ោង៧:០០ព្រឹក
               </h2>
-              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-500">
+              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-500 text-yellow-3d3">
                ពិធីហែជំនូន (កំណត់)
               </h2>
-              <div class="border bg-yellow-500 border-yellow-500 w-1 h-16 mt-2 m-auto"></div>
-              <h2 class="text-2xl md:text-4xl font-khmer-kh text-white">
+              <div class="line-yellow-3d4"></div>
+              <h2 class="text-2xl md:text-4xl font-khmer-kh text-white main-yellow-3d1">
                ម៉ោង៨:៣០ព្រឹក
               </h2>
-              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-500">
+              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-500 text-yellow-3d3">
                ពិធីបំពាក់ចិញ្ចៀន
               </h2>
-              <div class="border bg-yellow-500 border-yellow-500 w-1 h-16 mt-2 m-auto"></div>
-              <h2 class="text-2xl md:text-4xl font-khmer-kh text-white">
+              <div class="line-yellow-3d4"></div>
+              <h2 class="text-2xl md:text-4xl font-khmer-kh text-white main-yellow-3d1">
                ម៉ោង៩:០០ព្រឹក
               </h2>
-              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-500">
+              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-500 text-yellow-3d3">
                ពិធីកាត់សក់បង្កក់សិរី
               </h2>
-              <div class="border bg-yellow-500 border-yellow-500 w-1 h-16 mt-2 m-auto"></div>
-              <h2 class="text-2xl md:text-4xl font-khmer-kh text-white">
+              <div class="line-yellow-3d4"></div>
+              <h2 class="text-2xl md:text-4xl font-khmer-kh text-white main-yellow-3d1">
                ម៉ោង១០:០០ព្រឹក
               </h2>
-              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-500">
+              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-500 text-yellow-3d3">
                ពិធីក្រាបសំពះផ្ទឹម ចងដៃ និងបាចផ្កាស្លា
               </h2>
-              <div class="border bg-yellow-500 border-yellow-500 w-1 h-16 mt-2 m-auto"></div>
-              <h2 class="text-2xl md:text-4xl font-khmer-kh text-white">
+              <div class="line-yellow-3d4"></div>
+              <h2 class="text-2xl md:text-4xl font-khmer-kh text-white main-yellow-3d1">
                ម៉ោង១២:០០ថ្ងៃត្រង់
               </h2>
-              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-500">
+              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-500 text-yellow-3d3">
                 អញ្ជើញភ្ញៀវកិត្តិយសពិសារភោជនាហារថ្ងៃត្រង់
               </h2>
-              <h2 class="text-3xl md:text-4xl mt-10 font-khmer text-yellow-500">
+              <h2 class="text-3xl md:text-4xl mt-10 font-khmer text-yellow-500 text-yellow-3d4">
                កម្មវិធីពេលល្ងាច
               </h2>
               <div class="mt-5">
-                <div class="border-4 border-yellow-500 w-12 h-12 rounded-full m-auto"></div>
-                <div class="border bg-yellow-500 border-yellow-500 w-1 h-12 m-auto"></div>
+                <div class="div-yellow-3d4"></div>
+                <div class="line-yellow-3d4"></div>
               </div>
-              <h2 class="text-2xl md:text-4xl font-khmer-kh text-white">
+              <h2 class="text-2xl md:text-4xl font-khmer-kh text-white main-yellow-3d1">
                ម៉ោង៤:០០ល្ងាចតទៅ
               </h2>
-              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-500">
+              <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-500 text-yellow-3d4">
                 អញ្ជើញភ្ញៀវកិត្តិយសពិសារភោជនាហារដោយមេត្រីភាព
               </h2>
               <div class="border  border-yellow-500 mt-10 m-auto rounded-2xl py-5">
-                <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-500">
+                <h2 class="text-2xl md:text-4xl font-khmer-kh text-yellow-500 text-yellow-3d4">
                 អរគុណសម្រាប់ការចូលរួមរបស់លោកអ្នក
               </h2>
               </div>
