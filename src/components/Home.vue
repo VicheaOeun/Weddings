@@ -129,6 +129,6 @@ onMounted(() => {
 }
 
 .animate-pulse-gold {
-  animation: pulse-gold 2s infinite;
+  animation: pulse-gold 3s infinite;
 }
 </style>
