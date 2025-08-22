@@ -68,7 +68,7 @@
           ថ្ងៃចន្ទ ទី០៣ ខែវិច្ឆិកា ឆ្នាំ២០២៥
         </div>
         <button
-          class="flex justify-center items-center mt-10 font-khmer-kh text-white-100 border-2 border-yellow-500 px-4 py-2 rounded-full mx-auto"
+          class="btn-special flex justify-center items-center mt-10 font-khmer-kh text-white-100 border-2 border-yellow-500 px-4 py-2 rounded-full mx-auto animate-pulse-gold"
         >
           <a href="https://calendar.google.com/calendar/u/0/r/eventedit?text=កម្មវិធីអាពាហ៍ពិពាហ៍&dates=20251103T100000Z/20251103T120000Z&details=សូមមកចូលរួមកម្មវិធីរបស់យើង&location=Phnom%20Penh" target="_blank" rel="noopener noreferrer">
             <div class="text-2xl md:text-4xl cursor-pointer text-yellow-100 hover:text-red-800">
@@ -102,7 +102,7 @@
         ទីតាំង ភូមិសំណង សង្កាតរកាធំ ក្រុងច្បារមន ខេត្តកំពង់ស្ពឺ
         </div>
         <button
-        class="flex justify-center items-center mt-10 font-khmer-kh text-yellow-500 border-2 border-yellow-500 px-4 py-2 rounded-full mx-auto"
+        class="btn-special flex justify-center items-center mt-10 font-khmer-kh text-yellow-500 border-2 border-yellow-500 px-4 py-2 rounded-full mx-auto animate-pulse-gold"
       >
         <a href="https://maps.google.com/?q=11.467338,104.523792" target="_blank" rel="noopener noreferrer">
           <div class="text-2xl md:text-4xl cursor-pointer text-yellow-500 hover:text-red-800">

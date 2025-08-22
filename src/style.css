@@ -111,7 +111,7 @@ span {
 
 /* Elegant Wedding Theme Colors */
 :root {
-  --gold: #dcce0c;
+  --gold: #b9ac01;
   --champagne: #bcb23d;
   --blush: #f0c8d2;
   --lavender: #C8A2C8;
@@ -119,7 +119,8 @@ span {
 }
 
 /* Buttons............................................................................................. */
-button a div {
+/* Only target the special button */
+button.btn-special a div {
   background: linear-gradient(135deg, var(--gold), var(--blush));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -127,21 +128,31 @@ button a div {
   font-size: 1rem;
 }
 
-button {
+button.btn-special {
   border: 2px solid var(--gold);
   padding: 5px 10px;
   border-radius: 9999px;
   transition: all 0.3s ease;
 }
 
-button:hover {
+button.btn-special:hover {
   background: linear-gradient(135deg, var(--gold), var(--blush));
   border-color: transparent;
 }
 
-button:hover a div {
+button.btn-special:hover a div {
   -webkit-text-fill-color: white;
 }
+
+/* Other buttons stay default */
+button.btn {
+  border: 2px solid rgb(135, 3, 65);
+  padding: 7px 32px;
+  border-radius: 9999px;
+  transition: all 0.3s ease;
+  color: black;
+}
+
 
 /* Main 3d.............................................................................................. */
 .main-yellow-3d {

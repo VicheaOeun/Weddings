@@ -89,7 +89,7 @@ onMounted(() => {
       <!-- Open Button -->
       <button
         @click="emit('openContent')"
-        class="rose-gold-date mt-10 px-12 py-3 md:px-20 md:py-4 text-xl md:text-3xl border-3 border-red-400 rounded-full text-red-400 font-khmer hover:bg-[#F8F8FF] transition-all duration-300 animate-pulse"
+        class="btn rose-gold-date mt-10 px-12 py-3 md:px-20 md:py-4 text-xl md:text-3xl border-3 border-red-400 rounded-full text-red-400 font-khmer hover:bg-[#F8F8FF] transition-all duration-300 animate-pulse-red"
       >
         បើកធៀប
       </button>
@@ -102,18 +102,33 @@ onMounted(() => {
 @import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@300;400;500;600;700&display=swap");
 
-@keyframes pulse {
+@keyframes pulse-red {
   0%, 100% {
     transform: scale(1);
     box-shadow: 0 0 0 0 rgba(229, 71, 71, 0.8);
   }
   50% {
     transform: scale(1.05);
-    box-shadow: 0 0 20px 5px rgba(186, 19, 19, 0.8);
+    box-shadow: 0 0 10px 5px rgba(186, 19, 19, 0.8);
   }
 }
 
-.animate-pulse {
-  animation: pulse 2s infinite;
+.animate-pulse-red {
+  animation: pulse-red 2s infinite;
+}
+
+@keyframes pulse-gold {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(176, 149, 1, 0.8); /* gold glow */
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px 5px rgba(153, 115, 1, 0.8); /* darker gold */
+  }
+}
+
+.animate-pulse-gold {
+  animation: pulse-gold 2s infinite;
 }
 </style>
