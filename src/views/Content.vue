@@ -21,15 +21,16 @@
         <h2 class="text-4xl md:text-6xl mt-20 font-khmer text-yellow-600 main-yellow-3d">
           សិរីមង្គលអាពាហ៍ពិពាហ៍
         </h2>
-        <div
-          class="flex justify-between items-center mt-20 md:mt-40 font-khmer text-yellow-700 text-xl mx-auto"
-        >
+        <div class="flex justify-between items-center mt-20 md:mt-40 font-khmer text-yellow-700 text-xl mx-auto max-w-4xl">
+          <!-- First Parent Group -->
           <div class="text-center">
-            <div class="parents">លោក ឆន អឿន</div>
+            <div class="parents">លោក ឆន អឿន&nbsp;</div>
             <div class="parents">លោកស្រី គ្រី ទូច</div>
           </div>
+        
+          <!-- Second Parent Group -->
           <div class="text-center">
-            <div class="parents">លោក ចាន់ ដារិទ្ធ</div>
+            <div class="parents">លោក ចាន់ ដារិទ្ធ&nbsp;</div>
             <div class="parents">លោកស្រី រិត សុខឃឿន</div>
           </div>
         </div>
@@ -187,7 +188,7 @@
         <div class="p-1">
           <!-- Category Selection -->
           <div
-            class="mt-10 bg-black/30 p-5 rounded-xl backdrop-blur-sm border border-yellow-300/50"
+            class="mt-10 bg-black/30 p-6 rounded-xl backdrop-blur-sm border border-yellow-300/50 flex items-center"
           >
             <div
             @click="selectedDay = 'day02'"
@@ -208,8 +209,6 @@
             ០៣ វិច្ឆិកា
             </div>
         </div>
-
-
           <!-- Display Information -->
           <div class="mt-5">
             <p v-if="selectedDay === 'day02'">
