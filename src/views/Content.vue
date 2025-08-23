@@ -21,7 +21,7 @@
       <div class="flex items-center justify-center gap-4 md:gap-8 mt-[-50px]">
         <div class="text-right">
         </div>
-        <img src="/src/assets/love.png" alt="" class="w-20 h-20 md:w-32 md:h-32"/>
+        <img src="/src/assets/love1.png" alt="" class="w-55 h-35 md:w-22 md:h-22"/>
         <div class="text-left">
         </div>
       </div>

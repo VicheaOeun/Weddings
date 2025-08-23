@@ -50,13 +50,13 @@ onMounted(() => {
       <div class="flex items-center justify-center gap-4 md:gap-8 mt-[-50px]">
         <div class="text-right">
         </div>
-        <img src="/src/assets/love.png" alt="" class="w-20 h-20 md:w-32 md:h-32"/>
+        <img src="/src/assets/love.png" alt="" class="w-55 h-35 md:w-22 md:h-22"/>
         <div class="text-left">
         </div>
       </div>
 
       <!-- Wedding Date -->
-      <div class="text-xl md:text-2xl font-khmer-kh rose-gold-text mt-20">ពិធីរៀបអាពាហ៍ពិពាហ៍</div>
+      <div class="text-xl md:text-2xl font-khmer-kh rose-gold-text mt-10">ពិធីរៀបអាពាហ៍ពិពាហ៍</div>
       <div class="rose-gold-date text-2xl md:text-4xl font-khmer mt-5">ថ្ងៃចន្ទ ០៣ វិច្ឆិកា ២០២៥</div>
 
       <!-- Countdown Timer -->
