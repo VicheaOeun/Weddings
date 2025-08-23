@@ -51,6 +51,9 @@
             </div>
             <div class="text-2xl md:text-5xl mt-4 md:mt-10 childs">អឿន វិជ្ជា</div>
           </div>
+          <div class="w-10 h-15 font-bold mt-10 ml-10">
+          <img src="/src/assets/ku.png" alt="" />
+        </div>
           <div class="text-center">
             <div class="text-yellow-600 text-2xl md:text-3xl font-khmer-kh main-yellow-3d1">
               កូនស្រីនាម
@@ -170,6 +173,15 @@
             />
           </div>
         </div>
+        <div class="justify-center gap-2 md:gap-5 mt-2">
+          <div>
+            <img
+              class=""
+              src="/src/assets/img5.jpg"
+              alt=""
+            />
+          </div>
+        </div>
         <div class="flex justify-center gap-2 md:gap-5 mt-2">
           <div>
             <img
@@ -181,15 +193,6 @@
           <div>
             <img
               class="md:w-96 w-60"
-              src="/src/assets/img4.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-        <div class="justify-center gap-2 md:gap-5 mt-2">
-          <div>
-            <img
-              class=""
               src="/src/assets/img4.jpg"
               alt=""
             />
