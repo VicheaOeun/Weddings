@@ -15,7 +15,7 @@
 
     <!-- Content -->
     <div
-      class="mt-5 relative z-10 flex flex-col items-center justify-start text-white text-center px-6 pt-10 pb-20 overflow-y-scroll h-screen"
+      class="mt-2 relative z-10 flex flex-col items-center justify-start text-white text-center px-6 pt-10 pb-20 overflow-y-scroll h-screen"
     >
       <!-- Couple Names -->
       <div class="flex items-center justify-center gap-4 md:gap-8 mt-[-50px]">
@@ -181,6 +181,15 @@
           <div>
             <img
               class="md:w-96 w-60"
+              src="/src/assets/img4.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="justify-center gap-2 md:gap-5 mt-2">
+          <div>
+            <img
+              class=""
               src="/src/assets/img4.jpg"
               alt=""
             />
