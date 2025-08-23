@@ -15,8 +15,16 @@
 
     <!-- Content -->
     <div
-      class="relative z-10 flex flex-col items-center justify-start text-white text-center px-6 pt-10 pb-20 overflow-y-scroll h-screen"
+      class="mt-20 relative z-10 flex flex-col items-center justify-start text-white text-center px-6 pt-10 pb-20 overflow-y-scroll h-screen"
     >
+      <!-- Couple Names -->
+      <div class="flex items-center justify-center gap-4 md:gap-8 mt-[-50px]">
+        <div class="text-right">
+        </div>
+        <img src="/src/assets/love.png" alt="" class="w-20 h-20 md:w-32 md:h-32"/>
+        <div class="text-left">
+        </div>
+      </div>
       <section class>
         <h2 class="text-4xl md:text-6xl mt-20 font-khmer text-yellow-600 main-yellow-3d">
           សិរីមង្គលអាពាហ៍ពិពាហ៍

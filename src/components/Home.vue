@@ -50,13 +50,13 @@ onMounted(() => {
       <div class="flex items-center justify-center gap-4 md:gap-8 mt-[-50px]">
         <div class="text-right">
         </div>
-        <img src="/src/assets/love.png" alt="" class="w-40 h-40 md:w-62 md:h-62"/>
+        <img src="/src/assets/love.png" alt="" class="w-20 h-20 md:w-32 md:h-32"/>
         <div class="text-left">
         </div>
       </div>
 
       <!-- Wedding Date -->
-      <div class="text-xl md:text-2xl font-khmer-kh rose-gold-text mt-2">ពិធីរៀបអាពាហ៍ពិពាហ៍</div>
+      <div class="text-xl md:text-2xl font-khmer-kh rose-gold-text mt-20">ពិធីរៀបអាពាហ៍ពិពាហ៍</div>
       <div class="rose-gold-date text-2xl md:text-4xl font-khmer mt-5">ថ្ងៃចន្ទ ០៣ វិច្ឆិកា ២០២៥</div>
 
       <!-- Countdown Timer -->
@@ -102,14 +102,14 @@ onMounted(() => {
 @import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@300;400;500;600;700&display=swap");
 
-@keyframes pulse-red {
+@keyframes pulse-purple {
   0%, 100% {
     transform: scale(1);
-    box-shadow: 0 0 0 0 rgba(229, 71, 71, 0.8);
+    box-shadow: 0 0 0 0 rgba(135, 3, 65, 0.6); /* match border */
   }
   50% {
     transform: scale(1.05);
-    box-shadow: 0 0 10px 5px rgba(186, 19, 19, 0.8);
+    box-shadow: 0 0 15px 5px rgba(135, 3, 65, 0.8); /* match border darker */
   }
 }
 

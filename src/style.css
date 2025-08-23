@@ -146,11 +146,12 @@ button.btn-special:hover a div {
 
 /* Other buttons stay default */
 button.btn {
-  border: 2px solid rgb(135, 3, 65);
+  border: 2px solid rgb(135, 3, 65); /* Deep magenta/purple */
   padding: 7px 32px;
   border-radius: 9999px;
   transition: all 0.3s ease;
   color: black;
+  animation: pulse-purple 2s infinite; /* optional: apply animation */
 }
 
 
