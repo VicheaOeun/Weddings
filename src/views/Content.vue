@@ -198,6 +198,22 @@
             />
           </div>
         </div>
+        <div class="flex justify-center gap-2 md:gap-5 mt-2">
+          <div>
+            <img
+              class="md:w-96 w-60"
+              src="/src/assets/img6.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              class="md:w-96 w-60"
+              src="/src/assets/img7.jpg"
+              alt=""
+            />
+          </div>
+        </div>
       </section>
       <section class="mt-40">
         <h2
